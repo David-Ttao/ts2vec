@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TS2Vec
 
 This repository contains the official implementation for the paper [TS2Vec: Towards Universal Representation of Time Series](https://arxiv.org/abs/2106.10466) (AAAI-22).
@@ -93,6 +92,3 @@ test_repr = model.encode(
 )  # n_instances x n_timestamps x output_dims
 # (The timestamp t's representation vector is computed using the observations located in [t-50, t])
 ```
-=======
-# ts2vec_single_channel
->>>>>>> 5996a2f7cf1957ba015252721412a8b9f88aadab
