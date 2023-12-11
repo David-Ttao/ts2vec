@@ -10,6 +10,8 @@ import tasks
 import datautils
 from utils import init_dl_program, name_with_datetime, pkl_save, data_dropout
 from torch.utils.data import ConcatDataset
+from utils import save_one_experiment_result
+from datautils import setup_seed,set_device
 def save_checkpoint_callback(
     save_every=1,
     unit='epoch'
@@ -23,8 +25,8 @@ def save_checkpoint_callback(
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('dataset', default= 'ETTh1',help='The dataset name')
-    parser.add_argument('run_name',default='forecast_multivar' ,help='The folder name used to save model, output and evaluation metrics. This can be set to any word')
+    parser.add_argument('--dataset', default= 'ETTh1',help='The dataset name')
+    parser.add_argument('--run_name',default='forecast_multivar' ,help='The folder name used to save model, output and evaluation metrics. This can be set to any word')
     parser.add_argument('--loader', type=str, default='forecast_csv', help='The data loader used to load the experimental data. This can be set to UCR, UEA, forecast_csv, forecast_csv_univar, anomaly, or anomaly_coldstart')
     parser.add_argument('--gpu', type=int, default=0, help='The gpu no. used for training and inference (defaults to 0)')
     parser.add_argument('--batch-size', type=int, default=8, help='The batch size (defaults to 8)')
@@ -40,13 +42,20 @@ if __name__ == '__main__':
     parser.add_argument('--irregular', type=float, default=0, help='The ratio of missing observations (defaults to 0)')
     ###new
     parser.add_argument('--muti_dataset',type=str,default=None)
-    parser.add_argument('--target',type=str,default='electricity')
+    parser.add_argument('--target',type=str,default='ETTh1')
+    parser.add_argument('--model_path',type=str,default='/home/yupengz/ts2vec/training/ETTh1_epochs_250/model.pkl')
+    parser.add_argument('--record',type=int,default=1)
+    parser.add_argument('--random_seed',type=int,default=None)
+    parser.add_argument('--model_name',type=str,default=None)
     args = parser.parse_args()
     
     print("Dataset:", args.dataset)
     print("Arguments:", str(args))
     
-    device = init_dl_program(args.gpu, seed=args.seed, max_threads=args.max_threads)
+    #device = init_dl_program(args.gpu, seed=args.seed, max_threads=args.max_threads)
+    setup_seed(args.random_seed)
+    set_device(device=args.gpu)
+    device=torch.device(args.gpu)
     #切割数据集字符
     if args.muti_dataset:
         args.muti_dataset=args.muti_dataset.split("_")
@@ -70,14 +79,22 @@ if __name__ == '__main__':
 
     
     model = TS2Vec(
-        input_dims=8,
+        input_dims=1,
         device=device,
         **config
     )
 
-    model.load('/home/yupengz/ts2vec/training/ETTh1__forecast_multivar_20230611_185005/model.pkl')
+    model.load(args.model_path)
 
-    out, eval_res = tasks.eval_forecasting(model, data, train_slice, valid_slice, test_slice, scaler, pred_lens, n_covariate_cols)
+    # loss_log = model.fit(
+    #     train_data,
+    #     n_epochs=100,
+    #     n_iters=args.iters,
+    #     verbose=True
+    # )
+    eval_res = tasks.eval_forecasting(model, data, train_slice, valid_slice, test_slice, scaler, pred_lens, n_covariate_cols)
     
     print('Evaluation result:', eval_res)
     print("Finished.")
+    if args.record:
+        save_one_experiment_result(args, eval_res)

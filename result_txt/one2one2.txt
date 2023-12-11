@@ -1,0 +1,770 @@
+n2one setting ETTh1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_epochs_250/model.pkl', muti_dataset='ETTh1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.08332e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.81552e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.8792959746921768, 'MAE': 0.7369178582681565}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_epochs_250/model.pkl', muti_dataset='ETTh1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.08332e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.81552e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.8792959746921768, 'MAE': 0.7369178582681565}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_epochs_250/model.pkl', muti_dataset='ETTh1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.08332e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.81552e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.8792959746921768, 'MAE': 0.7369178582681565}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_epochs_250/model.pkl', muti_dataset='ETTh1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.08332e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.81552e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.8792959746921768, 'MAE': 0.7369178582681565}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_epochs_250/model.pkl', muti_dataset='ETTh1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.08332e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.81552e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.8792959746921768, 'MAE': 0.7369178582681565}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_epochs_250/model.pkl', muti_dataset='ETTh1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.08332e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.81552e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.8792959746921768, 'MAE': 0.7369178582681565}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_epochs_250/model.pkl', muti_dataset='ETTh1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.08332e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.81552e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.06446e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.8792959746921768, 'MAE': 0.7369178582681565}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh2_epochs_250/model.pkl', muti_dataset='ETTh2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.1567e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.28666e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.49187021882440585, 'MAE': 0.516517246319364}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh2_epochs_250/model.pkl', muti_dataset='ETTh2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.1567e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.28666e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.49187021882440585, 'MAE': 0.516517246319364}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh2_epochs_250/model.pkl', muti_dataset='ETTh2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.1567e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.28666e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.49187021882440585, 'MAE': 0.516517246319364}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh2_epochs_250/model.pkl', muti_dataset='ETTh2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.1567e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.28666e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.49187021882440585, 'MAE': 0.516517246319364}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh2_epochs_250/model.pkl', muti_dataset='ETTh2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.1567e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.28666e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.49187021882440585, 'MAE': 0.516517246319364}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh2_epochs_250/model.pkl', muti_dataset='ETTh2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.1567e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.28666e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.49187021882440585, 'MAE': 0.516517246319364}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh2_epochs_250/model.pkl', muti_dataset='ETTh2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.1567e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.28666e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.07853e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.49187021882440585, 'MAE': 0.516517246319364}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm1_epochs_250/model.pkl', muti_dataset='ETTm1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.62376e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.9588458903856697, 'MAE': 0.7951219687267588}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm1_epochs_250/model.pkl', muti_dataset='ETTm1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.62376e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.9588458903856697, 'MAE': 0.7951219687267588}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm1_epochs_250/model.pkl', muti_dataset='ETTm1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.62376e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.9588458903856697, 'MAE': 0.7951219687267588}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm1_epochs_250/model.pkl', muti_dataset='ETTm1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.62376e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.9588458903856697, 'MAE': 0.7951219687267588}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm1_epochs_250/model.pkl', muti_dataset='ETTm1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.62376e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.9588458903856697, 'MAE': 0.7951219687267588}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm1_epochs_250/model.pkl', muti_dataset='ETTm1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.62376e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.9588458903856697, 'MAE': 0.7951219687267588}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm1 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm1_epochs_250/model.pkl', muti_dataset='ETTm1', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.62376e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.41678e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.9588458903856697, 'MAE': 0.7951219687267588}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm2_epochs_250/model.pkl', muti_dataset='ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.59149e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.445727022567212, 'MAE': 0.4819003657940499}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm2_epochs_250/model.pkl', muti_dataset='ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.59149e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.445727022567212, 'MAE': 0.4819003657940499}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm2_epochs_250/model.pkl', muti_dataset='ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.59149e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.445727022567212, 'MAE': 0.4819003657940499}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm2_epochs_250/model.pkl', muti_dataset='ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.59149e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.445727022567212, 'MAE': 0.4819003657940499}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm2_epochs_250/model.pkl', muti_dataset='ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.59149e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.445727022567212, 'MAE': 0.4819003657940499}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm2_epochs_250/model.pkl', muti_dataset='ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.59149e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.445727022567212, 'MAE': 0.4819003657940499}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTm2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTm2_epochs_250/model.pkl', muti_dataset='ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.59149e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.33541e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.445727022567212, 'MAE': 0.4819003657940499}
+Finished.
+------------------------- record done -------------------------
+n2one setting electricity -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/electricity_epochs_250/model.pkl', muti_dataset='electricity', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.26926e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.57821e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.3172833255493102, 'MAE': 0.4034768361431498}
+Finished.
+------------------------- record done -------------------------
+n2one setting electricity -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/electricity_epochs_250/model.pkl', muti_dataset='electricity', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.26926e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.57821e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.3172833255493102, 'MAE': 0.4034768361431498}
+Finished.
+------------------------- record done -------------------------
+n2one setting electricity -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/electricity_epochs_250/model.pkl', muti_dataset='electricity', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.26926e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.57821e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.3172833255493102, 'MAE': 0.4034768361431498}
+Finished.
+------------------------- record done -------------------------
+n2one setting electricity -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/electricity_epochs_250/model.pkl', muti_dataset='electricity', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.26926e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.57821e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.3172833255493102, 'MAE': 0.4034768361431498}
+Finished.
+------------------------- record done -------------------------
+n2one setting electricity -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/electricity_epochs_250/model.pkl', muti_dataset='electricity', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.26926e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.57821e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.3172833255493102, 'MAE': 0.4034768361431498}
+Finished.
+------------------------- record done -------------------------
+n2one setting electricity -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/electricity_epochs_250/model.pkl', muti_dataset='electricity', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.26926e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.57821e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.3172833255493102, 'MAE': 0.4034768361431498}
+Finished.
+------------------------- record done -------------------------
+n2one setting electricity -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/electricity_epochs_250/model.pkl', muti_dataset='electricity', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.26926e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=5.57821e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.17222e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.3172833255493102, 'MAE': 0.4034768361431498}
+Finished.
+------------------------- record done -------------------------
+n2one setting traffic -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/traffic_epochs_250/model.pkl', muti_dataset='traffic', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/traffic_epochs_250/model.pkl'
+n2one setting traffic -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/traffic_epochs_250/model.pkl', muti_dataset='traffic', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/traffic_epochs_250/model.pkl'
+n2one setting traffic -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/traffic_epochs_250/model.pkl', muti_dataset='traffic', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/traffic_epochs_250/model.pkl'
+n2one setting traffic -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/traffic_epochs_250/model.pkl', muti_dataset='traffic', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/traffic_epochs_250/model.pkl'
+n2one setting traffic -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/traffic_epochs_250/model.pkl', muti_dataset='traffic', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/traffic_epochs_250/model.pkl'
+n2one setting traffic -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/traffic_epochs_250/model.pkl', muti_dataset='traffic', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/traffic_epochs_250/model.pkl'
+n2one setting traffic -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/traffic_epochs_250/model.pkl', muti_dataset='traffic', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/traffic_epochs_250/model.pkl'
+n2one setting exchange_rate -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/exchange_rate_epochs_250/model.pkl', muti_dataset='exchange_rate', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/exchange_rate_epochs_250/model.pkl'
+n2one setting exchange_rate -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/exchange_rate_epochs_250/model.pkl', muti_dataset='exchange_rate', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/exchange_rate_epochs_250/model.pkl'
+n2one setting exchange_rate -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/exchange_rate_epochs_250/model.pkl', muti_dataset='exchange_rate', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/exchange_rate_epochs_250/model.pkl'
+n2one setting exchange_rate -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/exchange_rate_epochs_250/model.pkl', muti_dataset='exchange_rate', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/exchange_rate_epochs_250/model.pkl'
+n2one setting exchange_rate -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/exchange_rate_epochs_250/model.pkl', muti_dataset='exchange_rate', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/exchange_rate_epochs_250/model.pkl'
+n2one setting exchange_rate -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/exchange_rate_epochs_250/model.pkl', muti_dataset='exchange_rate', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/exchange_rate_epochs_250/model.pkl'
+n2one setting exchange_rate -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/exchange_rate_epochs_250/model.pkl', muti_dataset='exchange_rate', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+Traceback (most recent call last):
+  File "finetune.py", line 81, in <module>
+    model.load(args.model_path)
+  File "/home/yupengz/ts2vec/ts2vec.py", line 328, in load
+    state_dict = torch.load(fn, map_location=self.device)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: './training/exchange_rate_epochs_250/model.pkl'

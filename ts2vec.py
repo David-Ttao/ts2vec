@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-from torch.utils.data import TensorDataset, DataLoader
+from torch.utils.data import TensorDataset, DataLoader,ConcatDataset
 import numpy as np
 from models import TSEncoder
 from models.losses import hierarchical_contrastive_loss
@@ -57,7 +57,7 @@ class TS2Vec:
         self.n_epochs = 0
         self.n_iters = 0
     
-    def fit(self, train_data, n_epochs=None, n_iters=None, verbose=False):
+    def fit(self, datalist, n_epochs=None, n_iters=None, verbose=False):
         ''' Training the TS2Vec model.
         
         Args:
@@ -69,25 +69,35 @@ class TS2Vec:
         Returns:
             loss_log: a list containing the training losses on each epoch.
         '''
-        assert train_data.ndim == 3
+        # assert train_data.ndim == 3
         
-        if n_iters is None and n_epochs is None:
-            n_iters = 200 if train_data.size <= 100000 else 600  # default param for n_iters
-        
-        if self.max_train_length is not None:
-            sections = train_data.shape[1] // self.max_train_length
-            if sections >= 2:
-                train_data = np.concatenate(split_with_nan(train_data, sections, axis=1), axis=0)
+        # if n_iters is None and n_epochs is None:
+        #     n_iters = 200 if train_data.size <= 100000 else 600  # default param for n_iters
+        n_iters = 200
+        # if self.max_train_length is not None:
+        #     sections = train_data.shape[1] // self.max_train_length
+        #     if sections >= 2:
+        #         train_data = np.concatenate(split_with_nan(train_data, sections, axis=1), axis=0)
 
-        temporal_missing = np.isnan(train_data).all(axis=-1).any(axis=0)
-        if temporal_missing[0] or temporal_missing[-1]:
-            train_data = centerize_vary_length_series(train_data)
+        # temporal_missing = np.isnan(train_data).all(axis=-1).any(axis=0)
+        # if temporal_missing[0] or temporal_missing[-1]:
+        #     train_data = centerize_vary_length_series(train_data)
                 
-        train_data = train_data[~np.isnan(train_data).all(axis=2).all(axis=1)]
-        
-        train_dataset = TensorDataset(torch.from_numpy(train_data).to(torch.float))
-        train_loader = DataLoader(train_dataset, batch_size=min(self.batch_size, len(train_dataset)), shuffle=True, drop_last=True)
-        
+        # train_data = train_data[~np.isnan(train_data).all(axis=2).all(axis=1)]
+        # train_data2 = train_data.copy()
+        # train_data[1][0][0]=6
+        # train_data2[0][0][0]=3
+        # train_data2=np.delete(train_data2,[1,2],axis=1)
+        # datalist=[]
+        # train_dataset2 = TensorDataset(torch.from_numpy(train_data2).to(torch.float))
+        # train_dataset = TensorDataset(torch.from_numpy(train_data).to(torch.float))
+        # # datalist.append(train_dataset)
+        # # datalist.append(train_dataset2)
+        # # conncat_data=ConcatDataset(datalist)
+        # train_loader = DataLoader(train_dataset, batch_size=min(self.batch_size, len(train_dataset)), shuffle=True, drop_last=True)
+        # train_loader2 = DataLoader(train_dataset2, batch_size=min(self.batch_size, len(train_dataset)), shuffle=True, drop_last=True)
+        # datalist.append(train_loader)
+        # datalist.append(train_loader2)
         optimizer = torch.optim.AdamW(self._net.parameters(), lr=self.lr)
         
         loss_log = []
@@ -100,50 +110,51 @@ class TS2Vec:
             n_epoch_iters = 0
             
             interrupted = False
-            for batch in train_loader:
-                if n_iters is not None and self.n_iters >= n_iters:
-                    interrupted = True
-                    break
-                
-                x = batch[0]
-                if self.max_train_length is not None and x.size(1) > self.max_train_length:
-                    window_offset = np.random.randint(x.size(1) - self.max_train_length + 1)
-                    x = x[:, window_offset : window_offset + self.max_train_length]
-                x = x.to(self.device)
-                
-                ts_l = x.size(1)
-                crop_l = np.random.randint(low=2 ** (self.temporal_unit + 1), high=ts_l+1)
-                crop_left = np.random.randint(ts_l - crop_l + 1)
-                crop_right = crop_left + crop_l
-                crop_eleft = np.random.randint(crop_left + 1)
-                crop_eright = np.random.randint(low=crop_right, high=ts_l + 1)
-                crop_offset = np.random.randint(low=-crop_eleft, high=ts_l - crop_eright + 1, size=x.size(0))
-                
-                optimizer.zero_grad()
-                
-                out1 = self._net(take_per_row(x, crop_offset + crop_eleft, crop_right - crop_eleft))
-                out1 = out1[:, -crop_l:]
-                
-                out2 = self._net(take_per_row(x, crop_offset + crop_left, crop_eright - crop_left))
-                out2 = out2[:, :crop_l]
-                
-                loss = hierarchical_contrastive_loss(
-                    out1,
-                    out2,
-                    temporal_unit=self.temporal_unit
-                )
-                
-                loss.backward()
-                optimizer.step()
-                self.net.update_parameters(self._net)
+            for train_loader in datalist:
+                for batch in train_loader:
+                    # if n_iters is not None and self.n_iters >= n_iters:
+                    #     interrupted = True
+                    #     break
                     
-                cum_loss += loss.item()
-                n_epoch_iters += 1
-                
-                self.n_iters += 1
-                
-                if self.after_iter_callback is not None:
-                    self.after_iter_callback(self, loss.item())
+                    x = batch[0]
+                    if self.max_train_length is not None and x.size(1) > self.max_train_length:
+                        window_offset = np.random.randint(x.size(1) - self.max_train_length + 1)
+                        x = x[:, window_offset : window_offset + self.max_train_length]
+                    x = x.to(self.device)
+                    
+                    ts_l = x.size(1)
+                    crop_l = np.random.randint(low=2 ** (self.temporal_unit + 1), high=ts_l+1)
+                    crop_left = np.random.randint(ts_l - crop_l + 1)
+                    crop_right = crop_left + crop_l
+                    crop_eleft = np.random.randint(crop_left + 1)
+                    crop_eright = np.random.randint(low=crop_right, high=ts_l + 1)
+                    crop_offset = np.random.randint(low=-crop_eleft, high=ts_l - crop_eright + 1, size=x.size(0))
+                    
+                    optimizer.zero_grad()
+                    
+                    out1 = self._net(take_per_row(x, crop_offset + crop_eleft, crop_right - crop_eleft))
+                    out1 = out1[:, -crop_l:]
+                    
+                    out2 = self._net(take_per_row(x, crop_offset + crop_left, crop_eright - crop_left))
+                    out2 = out2[:, :crop_l]
+                    
+                    loss = hierarchical_contrastive_loss(
+                        out1,
+                        out2,
+                        temporal_unit=self.temporal_unit
+                    )
+                    
+                    loss.backward()
+                    optimizer.step()
+                    self.net.update_parameters(self._net)
+                        
+                    cum_loss += loss.item()
+                    n_epoch_iters += 1
+                    
+                    self.n_iters += 1
+                    
+                    if self.after_iter_callback is not None:
+                        self.after_iter_callback(self, loss.item())
             
             if interrupted:
                 break

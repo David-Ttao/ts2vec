@@ -1,0 +1,317 @@
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=250, eval=False, gpu=1, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=3000, muti_dataset='ETTh1_ETTh2_ETTm1_ETTm2', repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None)
+training/ETTh1_ETTh2_ETTm1_ETTm2_epochs_250
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+done
+Epoch #0: loss=3.9956778287887573
+Epoch #1: loss=2.2933752735455832
+Epoch #2: loss=1.9366108940707312
+Epoch #3: loss=1.75146460864279
+Epoch #4: loss=1.5918391313817766
+Epoch #5: loss=1.42035777370135
+Epoch #6: loss=1.2740510685576334
+Epoch #7: loss=1.1987375997834735
+Epoch #8: loss=1.1749664826525583
+Epoch #9: loss=1.0971070180336635
+Epoch #10: loss=0.9862358768781027
+Epoch #11: loss=0.9114949885341856
+Epoch #12: loss=0.861772843533092
+Epoch #13: loss=0.8976404501332177
+Epoch #14: loss=0.833946931693289
+Epoch #15: loss=0.7673276116450628
+Epoch #16: loss=0.7286965524156889
+Epoch #17: loss=0.700589688287841
+Epoch #18: loss=0.7688821314109696
+Epoch #19: loss=0.688633617427614
+Epoch #20: loss=0.6735164862540033
+Epoch #21: loss=0.6594024159842067
+Epoch #22: loss=0.5915781872140037
+Epoch #23: loss=0.6301005333662033
+Epoch #24: loss=0.5490159591039022
+Epoch #25: loss=0.5978903306855096
+Epoch #26: loss=0.6145387672715716
+Epoch #27: loss=0.5524759772751067
+Epoch #28: loss=0.5762843746278021
+Epoch #29: loss=0.5130564529034827
+Epoch #30: loss=0.48779374526606667
+Epoch #31: loss=0.5495231135023965
+Epoch #32: loss=0.5114189618163638
+Epoch #33: loss=0.4711955827143457
+Epoch #34: loss=0.49280178795258206
+Epoch #35: loss=0.5168963223695755
+Epoch #36: loss=0.4396820267041524
+Epoch #37: loss=0.5040815754069222
+Epoch #38: loss=0.40069051335255307
+Epoch #39: loss=0.4154306997855504
+Epoch #40: loss=0.3611081710292233
+Epoch #41: loss=0.3472167145874765
+Epoch #42: loss=0.3843803745177057
+Epoch #43: loss=0.44009440764784813
+Epoch #44: loss=0.4648768562409613
+Epoch #45: loss=0.37921874100963276
+Epoch #46: loss=0.3176496922969818
+Epoch #47: loss=0.32313138743241626
+Epoch #48: loss=0.3500150992638535
+Epoch #49: loss=0.4146219818956322
+Epoch #50: loss=0.3331172578036785
+Epoch #51: loss=0.35093071601457065
+Epoch #52: loss=0.2945211206873258
+Epoch #53: loss=0.35299165671070415
+Epoch #54: loss=0.2801373456087377
+Epoch #55: loss=0.3293219788206948
+Epoch #56: loss=0.2740240486131774
+Epoch #57: loss=0.2892310590379768
+Epoch #58: loss=0.2801218628883362
+Epoch #59: loss=0.29118741469250786
+Epoch #60: loss=0.2642157098485364
+Epoch #61: loss=0.30601199426584774
+Epoch #62: loss=0.2416735328733921
+Epoch #63: loss=0.22634640667173597
+Epoch #64: loss=0.2965590324666765
+Epoch #65: loss=0.3430493258767658
+Epoch #66: loss=0.2839079639977879
+Epoch #67: loss=0.26280979957017636
+Epoch #68: loss=0.2293567100746764
+Epoch #69: loss=0.21964781917631626
+Epoch #70: loss=0.25399162785874474
+Epoch #71: loss=0.2320781455685695
+Epoch #72: loss=0.2124046381149027
+Epoch #73: loss=0.19232018147077826
+Epoch #74: loss=0.17483022001882395
+Epoch #75: loss=0.27499329629871583
+Epoch #76: loss=0.2268399577587843
+Epoch #77: loss=0.1815276499837637
+Epoch #78: loss=0.26343408765064347
+Epoch #79: loss=0.22099498762852615
+Epoch #80: loss=0.26416086550388074
+Epoch #81: loss=0.21563539281487465
+Epoch #82: loss=0.18931972556230095
+Epoch #83: loss=0.18597478916247687
+Epoch #84: loss=0.24666617324368822
+Epoch #85: loss=0.17905750994880995
+Epoch #86: loss=0.18520240858197212
+Epoch #87: loss=0.12129643176578814
+Epoch #88: loss=0.15118152420553896
+Epoch #89: loss=0.15560006671067741
+Epoch #90: loss=0.20876474833736816
+Epoch #91: loss=0.16170122846961021
+Epoch #92: loss=0.18562976333002248
+Epoch #93: loss=0.13987645061893594
+Epoch #94: loss=0.2000405036119951
+Epoch #95: loss=0.16837681343572009
+Epoch #96: loss=0.3122752474413978
+Epoch #97: loss=0.20734669216391113
+Epoch #98: loss=0.14664069407929978
+Epoch #99: loss=0.14203661059339842
+Epoch #100: loss=0.10527221403188175
+Epoch #101: loss=0.12036754154703683
+Epoch #102: loss=0.1213919102317757
+Epoch #103: loss=0.13201717928879791
+Epoch #104: loss=0.1679132804274559
+Epoch #105: loss=0.1340425672630469
+Epoch #106: loss=0.13820033861945072
+Epoch #107: loss=0.15260560086203945
+Epoch #108: loss=0.17404127990206084
+Epoch #109: loss=0.1332204901199374
+Epoch #110: loss=0.15285365842282772
+Epoch #111: loss=0.1440320452157822
+Epoch #112: loss=0.17763750793205368
+Epoch #113: loss=0.19930036034848955
+Epoch #114: loss=0.11051549151953724
+Epoch #115: loss=0.18825439850075376
+Epoch #116: loss=0.10856937518757251
+Epoch #117: loss=0.08702194049126571
+Epoch #118: loss=0.09115799516439438
+Epoch #119: loss=0.09205157625385457
+Epoch #120: loss=0.15778695290080375
+Epoch #121: loss=0.15530037600547075
+Epoch #122: loss=0.10891915759485629
+Epoch #123: loss=0.17003190155244535
+Epoch #124: loss=0.11984883269502057
+Epoch #125: loss=0.11254306779139572
+Epoch #126: loss=0.13354761903691623
+Epoch #127: loss=0.09552025753590795
+Epoch #128: loss=0.10853714433809121
+Epoch #129: loss=0.09594396460387442
+Epoch #130: loss=0.10469348444085982
+Epoch #131: loss=0.08969158834467332
+Epoch #132: loss=0.09881347485093607
+Epoch #133: loss=0.09297469977496399
+Epoch #134: loss=0.13858517978547347
+Epoch #135: loss=0.10483331259133087
+Epoch #136: loss=0.12917170502866307
+Epoch #137: loss=0.08056915220287111
+Epoch #138: loss=0.0813723870087415
+Epoch #139: loss=0.08144769949528079
+Epoch #140: loss=0.09660824108868837
+Epoch #141: loss=0.10209858448555072
+Epoch #142: loss=0.0818809278619786
+Epoch #143: loss=0.09173269880314668
+Epoch #144: loss=0.16520805336121056
+Epoch #145: loss=0.12689747671700186
+Epoch #146: loss=0.09418524734468924
+Epoch #147: loss=0.11096743339051802
+Epoch #148: loss=0.11151447478267881
+Epoch #149: loss=0.09405420301482081
+Epoch #150: loss=0.07759140672472616
+Epoch #151: loss=0.0757901655872249
+Epoch #152: loss=0.07182028589563237
+Epoch #153: loss=0.09149371123769218
+Epoch #154: loss=0.09407872742869788
+Epoch #155: loss=0.07884791126060817
+Epoch #156: loss=0.06386836108544634
+Epoch #157: loss=0.07124023941448993
+Epoch #158: loss=0.1199804284195933
+Epoch #159: loss=0.07628898428649539
+Epoch #160: loss=0.09053362512754069
+Epoch #161: loss=0.10573440267600948
+Epoch #162: loss=0.06369013535893625
+Epoch #163: loss=0.06923325033858418
+Epoch #164: loss=0.06736932180097534
+Epoch #165: loss=0.07062780489731166
+Epoch #166: loss=0.05479522639264663
+Epoch #167: loss=0.07602234717665447
+Epoch #168: loss=0.061488771992218166
+Epoch #169: loss=0.07999076696837114
+Epoch #170: loss=0.0665966684723066
+Epoch #171: loss=0.08787545944667524
+Epoch #172: loss=0.11247845322618054
+Epoch #173: loss=0.08847152216670413
+Epoch #174: loss=0.06568797936456071
+Epoch #175: loss=0.06806543614301416
+Epoch #176: loss=0.12094527708056073
+Epoch #177: loss=0.07052789783726136
+Epoch #178: loss=0.06746140877819723
+Epoch #179: loss=0.07131652272720304
+Epoch #180: loss=0.07763616184497045
+Epoch #181: loss=0.06722034136247304
+Epoch #182: loss=0.06319412133759922
+Epoch #183: loss=0.06332607784618934
+Epoch #184: loss=0.0739693859229899
+Epoch #185: loss=0.30293484922084546
+Epoch #186: loss=0.14172668154868814
+Epoch #187: loss=0.10758040498735176
+Epoch #188: loss=0.0755498939090305
+Epoch #189: loss=0.1145977883392738
+Epoch #190: loss=0.13686610173640978
+Epoch #191: loss=0.09345093366896941
+Epoch #192: loss=0.05706944792634911
+Epoch #193: loss=0.06801580937786235
+Epoch #194: loss=0.06898035512616237
+Epoch #195: loss=0.10193329816684127
+Epoch #196: loss=0.06532466905708942
+Epoch #197: loss=0.07177339095829262
+Epoch #198: loss=0.06997138887850775
+Epoch #199: loss=0.0863466359830151
+Epoch #200: loss=0.08839767581472795
+Epoch #201: loss=0.09120120956665939
+Epoch #202: loss=0.0630659880504633
+Epoch #203: loss=0.16680528844396272
+Epoch #204: loss=0.10865160176116559
+Epoch #205: loss=0.18476316389731234
+Epoch #206: loss=0.10868729754454559
+Epoch #207: loss=0.08269817558013731
+Epoch #208: loss=0.06465219406204091
+Epoch #209: loss=0.093585409456864
+Epoch #210: loss=0.05003162887361315
+Epoch #211: loss=0.082357863507544
+Epoch #212: loss=0.09379788775307436
+Epoch #213: loss=0.08290142519399524
+Epoch #214: loss=0.06300004307801525
+Epoch #215: loss=0.04612775488446156
+Epoch #216: loss=0.06135901974307166
+Epoch #217: loss=0.05469192396331993
+Epoch #218: loss=0.054978460151081286
+Epoch #219: loss=0.046238087609203324
+Epoch #220: loss=0.060323735078175865
+Epoch #221: loss=0.056699705905177526
+Epoch #222: loss=0.06785392463724646
+Epoch #223: loss=0.05448465013048715
+Epoch #224: loss=0.05313915064713607
+Epoch #225: loss=0.059502394184366696
+Epoch #226: loss=0.08482365951769882
+Epoch #227: loss=0.0569708318863478
+Epoch #228: loss=0.12831710441969335
+Epoch #229: loss=0.08220029485204981
+Epoch #230: loss=0.06192433951784753
+Epoch #231: loss=0.07103552869779782
+Epoch #232: loss=0.08349031416906251
+Epoch #233: loss=0.05423654099771132
+Epoch #234: loss=0.049353578813477524
+Epoch #235: loss=0.04396529969138404
+Epoch #236: loss=0.03051390769218819
+Epoch #237: loss=0.048927308810460896
+Epoch #238: loss=0.034840122343868844
+Epoch #239: loss=0.09903129570496579
+Epoch #240: loss=0.0761565202071021
+Epoch #241: loss=0.07916324862485959
+Epoch #242: loss=0.10017948113899264
+Epoch #243: loss=0.07074771637821363
+Epoch #244: loss=0.06415879159855346
+Epoch #245: loss=0.08467416245386833
+Epoch #246: loss=0.07012317759088343
+Epoch #247: loss=0.056569127184856266
+Epoch #248: loss=0.043729642677741744
+Epoch #249: loss=0.05413029917205373
+
+Training time: 0:15:27.712624
+
+Finished.
+n2one setting ETTh1_ETTh2_ETTm1_ETTm2 -> electricity
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_ETTh2_ETTm1_ETTm2_epochs_250/model.pkl', muti_dataset='ETTh1_ETTh2_ETTm1_ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='electricity')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.44891e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.89061e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.44891e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.36415470402190914, 'MAE': 0.4290069563183212}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1_ETTh2_ETTm1_ETTm2 -> traffic
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_ETTh2_ETTm1_ETTm2_epochs_250/model.pkl', muti_dataset='ETTh1_ETTh2_ETTm1_ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='traffic')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.42726e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.82673e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.42726e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.831622323072484, 'MAE': 0.46096966631010217}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1_ETTh2_ETTm1_ETTm2 -> exchange_rate
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_ETTh2_ETTm1_ETTm2_epochs_250/model.pkl', muti_dataset='ETTh1_ETTh2_ETTm1_ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='exchange_rate')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=3.57323e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.22954297267922288, 'MAE': 0.32513506040927964}
+Finished.
+------------------------- record done -------------------------
+n2one setting ETTh1_ETTh2_ETTm1_ETTm2 -> weather
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=0, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_path='./training/ETTh1_ETTh2_ETTm1_ETTm2_epochs_250/model.pkl', muti_dataset='ETTh1_ETTh2_ETTm1_ETTm2', record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='weather')
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.48727e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=2.96233e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=1.48727e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+Evaluation result: {'MSE': 0.3931948530851449, 'MAE': 0.4694541153765883}
+Finished.
+------------------------- record done -------------------------

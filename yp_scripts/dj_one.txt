@@ -1,0 +1,1798 @@
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='etth1', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/etth1_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=22.258921895708358
+Epoch #1: loss=7.883176394871303
+Epoch #2: loss=5.5310002735682895
+Epoch #3: loss=4.7863688468933105
+Epoch #4: loss=4.16992095538548
+Epoch #5: loss=3.9443441118512834
+Epoch #6: loss=3.8280832767486572
+Epoch #7: loss=3.6548612458365306
+Epoch #8: loss=3.6722684928349087
+Epoch #9: loss=3.680468899863107
+Epoch #10: loss=3.55487482888358
+Epoch #11: loss=3.530831984111241
+Epoch #12: loss=3.4739747047424316
+Epoch #13: loss=3.471907070704869
+Epoch #14: loss=3.5495947088514055
+Epoch #15: loss=3.4822750432150706
+Epoch #16: loss=3.4290211541312083
+Epoch #17: loss=3.445936850139073
+Epoch #18: loss=3.4345246042524065
+Epoch #19: loss=3.3353487764086043
+Epoch #20: loss=3.4614707742418562
+Epoch #21: loss=3.3452262537819997
+Epoch #22: loss=3.3569551536015103
+Epoch #23: loss=3.3523696150098528
+Epoch #24: loss=3.257789271218436
+Epoch #25: loss=3.3037019116537913
+Epoch #26: loss=3.283822979245867
+Epoch #27: loss=3.2181451320648193
+Epoch #28: loss=3.270766190120152
+Epoch #29: loss=3.1057661260877336
+Epoch #30: loss=3.182300295148577
+Epoch #31: loss=3.1506374904087613
+Epoch #32: loss=3.1285553659711565
+Epoch #33: loss=3.01645336832319
+Epoch #34: loss=3.0946750981467113
+Epoch #35: loss=3.0745696680886403
+Epoch #36: loss=3.0835463319505965
+Epoch #37: loss=3.0539022173200334
+Epoch #38: loss=3.0278279100145613
+Epoch #39: loss=3.0004986013684953
+Epoch #40: loss=2.947378839765276
+Epoch #41: loss=2.9400925636291504
+Epoch #42: loss=2.9757835183824812
+Epoch #43: loss=2.917584078652518
+Epoch #44: loss=2.8899365833827426
+Epoch #45: loss=2.859980957848685
+Epoch #46: loss=2.8326221874782016
+Epoch #47: loss=2.8018594128744945
+Epoch #48: loss=2.7558891092027937
+Epoch #49: loss=2.7598283290863037
+Epoch #50: loss=2.721658229827881
+Epoch #51: loss=2.6674390860966275
+Epoch #52: loss=2.820649726050241
+Epoch #53: loss=2.62855703490121
+Epoch #54: loss=2.6674163341522217
+Epoch #55: loss=2.7624501160212924
+Epoch #56: loss=2.5952789783477783
+Epoch #57: loss=2.6163131168910434
+Epoch #58: loss=2.4824769837515697
+Epoch #59: loss=2.590146848133632
+Epoch #60: loss=2.852183069501604
+Epoch #61: loss=2.3862382684435164
+Epoch #62: loss=2.5246052742004395
+Epoch #63: loss=2.3789901733398438
+Epoch #64: loss=2.4919844354901994
+Epoch #65: loss=2.416051285607474
+Epoch #66: loss=2.368154219218663
+Epoch #67: loss=2.4410552637917653
+Epoch #68: loss=2.280292579105922
+Epoch #69: loss=2.280214479991368
+Epoch #70: loss=2.49225766318185
+Epoch #71: loss=2.2195542539869035
+Epoch #72: loss=2.2000551223754883
+Epoch #73: loss=2.1877151897975375
+Epoch #74: loss=2.2942627498081754
+Epoch #75: loss=2.1130051953451976
+Epoch #76: loss=2.231632249695914
+Epoch #77: loss=2.033996054104396
+Epoch #78: loss=2.1450343132019043
+Epoch #79: loss=2.6089546169553484
+Epoch #80: loss=2.267440506390163
+Epoch #81: loss=2.059266141482762
+Epoch #82: loss=2.094894528388977
+Epoch #83: loss=2.1456787245614186
+Epoch #84: loss=2.2440490211759294
+Epoch #85: loss=2.4031480721064975
+Epoch #86: loss=2.2142822401864186
+Epoch #87: loss=2.1196923426219394
+Epoch #88: loss=2.4877872126443044
+Epoch #89: loss=2.1364292417253767
+Epoch #90: loss=2.1207872288567677
+Epoch #91: loss=1.9039134127753121
+Epoch #92: loss=2.21731892653874
+Epoch #93: loss=2.272110002381461
+Epoch #94: loss=1.972722853933062
+Epoch #95: loss=2.1070654732840404
+Epoch #96: loss=1.9056130477360316
+Epoch #97: loss=1.6733499765396118
+Epoch #98: loss=2.0147483348846436
+Epoch #99: loss=1.9544014760426112
+Epoch #100: loss=2.4082412038530623
+Epoch #101: loss=2.2945570094244823
+Epoch #102: loss=1.9324729612895422
+Epoch #103: loss=2.193211095673697
+Epoch #104: loss=2.0598150491714478
+Epoch #105: loss=2.0438510860715593
+Epoch #106: loss=1.9499273129871912
+Epoch #107: loss=2.2578768048967635
+Epoch #108: loss=2.1748190777642384
+Epoch #109: loss=2.250322733606611
+Epoch #110: loss=1.955500534602574
+Epoch #111: loss=1.8852997847965784
+Epoch #112: loss=1.8360372270856584
+Epoch #113: loss=1.8756721360342843
+Epoch #114: loss=1.8474787643977575
+Epoch #115: loss=1.8334518330437797
+Epoch #116: loss=1.742837769644601
+Epoch #117: loss=1.9590562411717005
+Epoch #118: loss=1.559059739112854
+Epoch #119: loss=2.042397209576198
+Epoch #120: loss=1.986937710217067
+Epoch #121: loss=1.6171569653919764
+Epoch #122: loss=2.524825760296413
+Epoch #123: loss=2.163939663342067
+Epoch #124: loss=2.1999548162732805
+Epoch #125: loss=1.9292895112718855
+Epoch #126: loss=1.965141943522862
+Epoch #127: loss=1.892970357622419
+Epoch #128: loss=1.960064206804548
+Epoch #129: loss=2.3130561453955516
+Epoch #130: loss=1.6860893964767456
+Epoch #131: loss=1.834116748401097
+Epoch #132: loss=2.0068122829709734
+Epoch #133: loss=1.609108567237854
+Epoch #134: loss=1.5131322826657976
+Epoch #135: loss=1.5297497851508004
+Epoch #136: loss=1.5201716423034668
+Epoch #137: loss=2.355552247592381
+Epoch #138: loss=1.4664986644472395
+Epoch #139: loss=1.9478771345955985
+Epoch #140: loss=1.673492193222046
+Epoch #141: loss=2.3182205642972673
+Epoch #142: loss=1.669531260217939
+Epoch #143: loss=1.93454144682203
+Epoch #144: loss=1.6480274541037423
+Epoch #145: loss=1.6670351709638322
+Epoch #146: loss=1.826426727431161
+Epoch #147: loss=1.7205537898199899
+Epoch #148: loss=1.9429292508534022
+Epoch #149: loss=1.340375338281904
+
+Training time: 0:01:03.412233
+
+Finished.
+n2one setting etth1 -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/etth1_epochs_150_seed_2021/model.pkl', muti_dataset='etth1', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=1.53006e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=3.17503e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=1.53006e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.04472873400482384, 'MAE': 0.10582905210495173, 'MAPE': 2.2613426067001883}, 'ts2vec_infer_time': 329.4282398223877, 'lr_train_time': {7: 5.303432941436768}, 'lr_infer_time': {7: 0.6547636985778809}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting etth1 -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/etth1_epochs_150_seed_2021/model.pkl', muti_dataset='etth1', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.01476e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=4.10468e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.01476e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.07002407383448894, 'MAE': 0.1771513789657047, 'MAPE': 1.2909363233344084}, 'ts2vec_infer_time': 146.26947784423828, 'lr_train_time': {7: 4.115629196166992}, 'lr_infer_time': {7: 0.17749643325805664}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='etth2', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/etth2_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=24.766032763889857
+Epoch #1: loss=8.803612300327845
+Epoch #2: loss=6.621143817901611
+Epoch #3: loss=5.79732254573277
+Epoch #4: loss=4.700241770063128
+Epoch #5: loss=4.2506194795881
+Epoch #6: loss=4.147610460008893
+Epoch #7: loss=3.8772155216761996
+Epoch #8: loss=3.8617148399353027
+Epoch #9: loss=3.8376260825565884
+Epoch #10: loss=3.7049733570643832
+Epoch #11: loss=3.687737396785191
+Epoch #12: loss=3.6040535994938443
+Epoch #13: loss=3.6207263810294017
+Epoch #14: loss=3.736642667225429
+Epoch #15: loss=3.646578243800572
+Epoch #16: loss=3.576042720249721
+Epoch #17: loss=3.595839466367449
+Epoch #18: loss=3.605017832347325
+Epoch #19: loss=3.4736900329589844
+Epoch #20: loss=3.6584087099347795
+Epoch #21: loss=3.5300375734056746
+Epoch #22: loss=3.5400164127349854
+Epoch #23: loss=3.552077429635184
+Epoch #24: loss=3.44436206136431
+Epoch #25: loss=3.530397415161133
+Epoch #26: loss=3.4871815953935896
+Epoch #27: loss=3.4162188257489885
+Epoch #28: loss=3.5434532506125316
+Epoch #29: loss=3.2674667835235596
+Epoch #30: loss=3.4138436317443848
+Epoch #31: loss=3.41584655216762
+Epoch #32: loss=3.4312499591282437
+Epoch #33: loss=3.2412750039781844
+Epoch #34: loss=3.3775359221867154
+Epoch #35: loss=3.375919989177159
+Epoch #36: loss=3.408285311290196
+Epoch #37: loss=3.3543785640171597
+Epoch #38: loss=3.317723648888724
+Epoch #39: loss=3.303289140973772
+Epoch #40: loss=3.247865949358259
+Epoch #41: loss=3.286836896623884
+Epoch #42: loss=3.304432051522391
+Epoch #43: loss=3.320836203438895
+Epoch #44: loss=3.2901222024645125
+Epoch #45: loss=3.210578066962106
+Epoch #46: loss=3.2908214841570174
+Epoch #47: loss=3.216256414140974
+Epoch #48: loss=3.2269979545048306
+Epoch #49: loss=3.1768044403621127
+Epoch #50: loss=3.207247495651245
+Epoch #51: loss=3.2061093194144115
+Epoch #52: loss=3.060312271118164
+Epoch #53: loss=3.1372431005750383
+Epoch #54: loss=3.1500251633780345
+Epoch #55: loss=3.12041221346174
+Epoch #56: loss=3.1812380722590854
+Epoch #57: loss=3.1374306338174
+Epoch #58: loss=3.077937296458653
+Epoch #59: loss=3.093475478036063
+Epoch #60: loss=3.0206780433654785
+Epoch #61: loss=3.0961094243185863
+Epoch #62: loss=3.01974960735866
+Epoch #63: loss=3.1012300423213413
+Epoch #64: loss=3.078956229346139
+Epoch #65: loss=3.040283271244594
+Epoch #66: loss=3.082941702433995
+Epoch #67: loss=3.031679936817714
+Epoch #68: loss=3.029263598578317
+Epoch #69: loss=3.0476159368242537
+Epoch #70: loss=2.9651120390210832
+Epoch #71: loss=2.980139970779419
+Epoch #72: loss=2.9461826596941267
+Epoch #73: loss=2.951207229069301
+Epoch #74: loss=3.052882875714983
+Epoch #75: loss=2.957843508039202
+Epoch #76: loss=2.932724986757551
+Epoch #77: loss=2.9231597696031844
+Epoch #78: loss=2.9141128744397844
+Epoch #79: loss=2.981614146913801
+Epoch #80: loss=2.8530403886522566
+Epoch #81: loss=2.8834128379821777
+Epoch #82: loss=2.9071034363337924
+Epoch #83: loss=2.920630250658308
+Epoch #84: loss=2.8566653387887135
+Epoch #85: loss=2.902931349618094
+Epoch #86: loss=2.8778184482029507
+Epoch #87: loss=2.872004883629935
+Epoch #88: loss=2.859892334256853
+Epoch #89: loss=2.790471383503505
+Epoch #90: loss=2.7984723363603865
+Epoch #91: loss=2.735050473894392
+Epoch #92: loss=2.8290299006870816
+Epoch #93: loss=2.7992019653320312
+Epoch #94: loss=2.740008899143764
+Epoch #95: loss=2.855065482003348
+Epoch #96: loss=2.708291803087507
+Epoch #97: loss=2.635402270725795
+Epoch #98: loss=2.7297731808253696
+Epoch #99: loss=2.6790664877210344
+Epoch #100: loss=2.7534924234662737
+Epoch #101: loss=2.8002146993364607
+Epoch #102: loss=2.7083585262298584
+Epoch #103: loss=2.7180935655321394
+Epoch #104: loss=2.6666298593793596
+Epoch #105: loss=2.6218408175877164
+Epoch #106: loss=2.6419893332890103
+Epoch #107: loss=2.7454056399209157
+Epoch #108: loss=2.7095929213932584
+Epoch #109: loss=2.6957075595855713
+Epoch #110: loss=2.6689229011535645
+Epoch #111: loss=2.6204333986554826
+Epoch #112: loss=2.5870087146759033
+Epoch #113: loss=2.5651987280164446
+Epoch #114: loss=2.607750722340175
+Epoch #115: loss=2.5687468392508372
+Epoch #116: loss=2.515514169420515
+Epoch #117: loss=2.5657666410718645
+Epoch #118: loss=2.3929820401327953
+Epoch #119: loss=2.613546439579555
+Epoch #120: loss=2.6026155948638916
+Epoch #121: loss=2.4147527558462962
+Epoch #122: loss=2.691318784441267
+Epoch #123: loss=2.5880843230656216
+Epoch #124: loss=2.6048647335597446
+Epoch #125: loss=2.519308498927525
+Epoch #126: loss=2.509093795503889
+Epoch #127: loss=2.5259784630366733
+Epoch #128: loss=2.5323056834084645
+Epoch #129: loss=2.59218236378261
+Epoch #130: loss=2.372006756918771
+Epoch #131: loss=2.4212135587419783
+Epoch #132: loss=2.5120018890925815
+Epoch #133: loss=2.3428493227277483
+Epoch #134: loss=2.2658394745418002
+Epoch #135: loss=2.211741958345686
+Epoch #136: loss=2.2618832417896817
+Epoch #137: loss=2.6177705015454973
+Epoch #138: loss=2.1226278713771274
+Epoch #139: loss=2.3579342365264893
+Epoch #140: loss=2.3474904809679304
+Epoch #141: loss=2.673142739704677
+Epoch #142: loss=2.2925707612718855
+Epoch #143: loss=2.3843874590737477
+Epoch #144: loss=2.216334819793701
+Epoch #145: loss=2.1955142872674123
+Epoch #146: loss=2.281524283545358
+Epoch #147: loss=2.2644189255578175
+Epoch #148: loss=2.384440643446786
+Epoch #149: loss=2.0173064299992154
+
+Training time: 0:01:09.431304
+
+Finished.
+n2one setting etth2 -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/etth2_epochs_150_seed_2021/model.pkl', muti_dataset='etth2', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.21112e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=4.47822e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.21112e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.04634235076391043, 'MAE': 0.10743274020794091, 'MAPE': 2.2160833143716148}, 'ts2vec_infer_time': 313.1620452404022, 'lr_train_time': {7: 7.934482574462891}, 'lr_infer_time': {7: 0.4136810302734375}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting etth2 -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/etth2_epochs_150_seed_2021/model.pkl', muti_dataset='etth2', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.82605e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=5.78597e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.82605e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.07076639911401846, 'MAE': 0.1781043984572619, 'MAPE': 1.3105683313541208}, 'ts2vec_infer_time': 139.6952726840973, 'lr_train_time': {7: 4.611871957778931}, 'lr_infer_time': {7: 0.3062303066253662}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='ettm1', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/ettm1_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=24.482442719595774
+Epoch #1: loss=8.78603982925415
+Epoch #2: loss=6.592455182756696
+Epoch #3: loss=5.657709530421665
+Epoch #4: loss=4.987900257110596
+Epoch #5: loss=4.700870922633579
+Epoch #6: loss=4.577794688088553
+Epoch #7: loss=4.455647332327707
+Epoch #8: loss=4.400777680533273
+Epoch #9: loss=4.302761554718018
+Epoch #10: loss=4.295673915318081
+Epoch #11: loss=4.33280120577131
+Epoch #12: loss=4.218661444527762
+Epoch #13: loss=4.2692646980285645
+Epoch #14: loss=4.293664455413818
+Epoch #15: loss=4.210876601082938
+Epoch #16: loss=4.1339278902326315
+Epoch #17: loss=4.113506998334612
+Epoch #18: loss=4.205043860844204
+Epoch #19: loss=4.156604255948748
+Epoch #20: loss=4.115870101111276
+Epoch #21: loss=4.0825139454432895
+Epoch #22: loss=4.030704021453857
+Epoch #23: loss=4.059950930731637
+Epoch #24: loss=4.069550820759365
+Epoch #25: loss=4.086007561002459
+Epoch #26: loss=3.9903303555079868
+Epoch #27: loss=4.003170558384487
+Epoch #28: loss=3.96879175731114
+Epoch #29: loss=3.963088274002075
+Epoch #30: loss=3.9413252558026994
+Epoch #31: loss=3.9569876875196184
+Epoch #32: loss=3.844357763017927
+Epoch #33: loss=3.842506170272827
+Epoch #34: loss=3.850886174610683
+Epoch #35: loss=3.876274824142456
+Epoch #36: loss=3.8348537513187955
+Epoch #37: loss=3.8205390317099437
+Epoch #38: loss=3.7781734466552734
+Epoch #39: loss=3.7290099688938687
+Epoch #40: loss=3.740154334477016
+Epoch #41: loss=3.719153983252389
+Epoch #42: loss=3.724703993116106
+Epoch #43: loss=3.688901628766741
+Epoch #44: loss=3.659492560795375
+Epoch #45: loss=3.696525505610875
+Epoch #46: loss=3.614910398210798
+Epoch #47: loss=3.6147395202091763
+Epoch #48: loss=3.567920242037092
+Epoch #49: loss=3.504443883895874
+Epoch #50: loss=3.7020432267870222
+Epoch #51: loss=3.6755259037017822
+Epoch #52: loss=3.521411521094186
+Epoch #53: loss=3.5779501710619246
+Epoch #54: loss=3.572333914893014
+Epoch #55: loss=3.4449897153036937
+Epoch #56: loss=3.4044251101357594
+Epoch #57: loss=3.305591651371547
+Epoch #58: loss=3.4283997331346785
+Epoch #59: loss=3.3763348034449985
+Epoch #60: loss=3.256894724709647
+Epoch #61: loss=3.5679921422685896
+Epoch #62: loss=3.4333112239837646
+Epoch #63: loss=3.3474247796194896
+Epoch #64: loss=3.246090820857457
+Epoch #65: loss=3.549215350832258
+Epoch #66: loss=3.303633008684431
+Epoch #67: loss=3.2247884614127025
+Epoch #68: loss=3.0606542314801897
+Epoch #69: loss=3.4236035346984863
+Epoch #70: loss=2.978043964930943
+Epoch #71: loss=3.0728840146745955
+Epoch #72: loss=2.94974946975708
+Epoch #73: loss=3.2404805592128207
+Epoch #74: loss=3.72440699168614
+Epoch #75: loss=3.3051345348358154
+Epoch #76: loss=3.0295553547995433
+Epoch #77: loss=3.1144403389522006
+Epoch #78: loss=3.188913140978132
+Epoch #79: loss=3.07719281741551
+Epoch #80: loss=3.2438983576638356
+Epoch #81: loss=2.925243922642299
+Epoch #82: loss=2.840048381260463
+Epoch #83: loss=2.943638597215925
+Epoch #84: loss=3.07241153717041
+Epoch #85: loss=2.7674590860094344
+Epoch #86: loss=3.0519734791346957
+Epoch #87: loss=2.5483274459838867
+Epoch #88: loss=3.0338904517037526
+Epoch #89: loss=2.8517561299460277
+Epoch #90: loss=2.8637665680476596
+Epoch #91: loss=2.404622861317226
+Epoch #92: loss=3.3138809204101562
+Epoch #93: loss=2.723200695855277
+Epoch #94: loss=2.5223980971745084
+Epoch #95: loss=3.5132644517081126
+Epoch #96: loss=2.7720538888658797
+Epoch #97: loss=3.086911848613194
+Epoch #98: loss=2.9051411151885986
+Epoch #99: loss=2.66786858013698
+Epoch #100: loss=2.9871484552110945
+Epoch #101: loss=2.703397682734898
+Epoch #102: loss=2.8798891816820418
+Epoch #103: loss=3.0791242803846086
+Epoch #104: loss=3.003783566611154
+Epoch #105: loss=2.686242478234427
+Epoch #106: loss=2.5315748623439243
+Epoch #107: loss=2.6545045035226003
+Epoch #108: loss=3.268383128302438
+Epoch #109: loss=2.8708692278180803
+Epoch #110: loss=3.030649185180664
+Epoch #111: loss=2.652215140206473
+Epoch #112: loss=3.0378738812037875
+Epoch #113: loss=2.550818749836513
+Epoch #114: loss=2.5729019982474193
+Epoch #115: loss=2.5722513369151523
+Epoch #116: loss=2.4630452394485474
+Epoch #117: loss=2.2106372799192155
+Epoch #118: loss=2.462055172239031
+Epoch #119: loss=3.2276394026620046
+Epoch #120: loss=2.7556659153529575
+Epoch #121: loss=2.877305814198085
+Epoch #122: loss=2.54727612222944
+Epoch #123: loss=3.0952055794852122
+Epoch #124: loss=3.132007598876953
+Epoch #125: loss=2.5517918041774204
+Epoch #126: loss=2.9592346123286655
+Epoch #127: loss=2.3400989941188266
+Epoch #128: loss=3.237614325114659
+Epoch #129: loss=3.038911989756993
+Epoch #130: loss=2.5413704259055003
+Epoch #131: loss=2.9652791023254395
+Epoch #132: loss=2.766681398664202
+Epoch #133: loss=2.545758298465184
+Epoch #134: loss=2.549546037401472
+Epoch #135: loss=2.595304080418178
+Epoch #136: loss=2.6063134329659596
+Epoch #137: loss=2.534590789249965
+Epoch #138: loss=2.6668725865227834
+Epoch #139: loss=2.6922474758965627
+Epoch #140: loss=2.667442185538156
+Epoch #141: loss=2.665123701095581
+Epoch #142: loss=2.8781806400844028
+Epoch #143: loss=2.6674347945622037
+Epoch #144: loss=2.937697649002075
+Epoch #145: loss=2.694420542035784
+Epoch #146: loss=2.9892433370862688
+Epoch #147: loss=2.1218963861465454
+Epoch #148: loss=2.179360270500183
+Epoch #149: loss=2.7673230171203613
+
+Training time: 0:02:12.302092
+
+Finished.
+n2one setting ettm1 -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/ettm1_epochs_150_seed_2021/model.pkl', muti_dataset='ettm1', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.34238e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=4.70597e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.34238e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.045056748333351306, 'MAE': 0.10691011205469533, 'MAPE': 2.175187823772148}, 'ts2vec_infer_time': 365.4347069263458, 'lr_train_time': {7: 13.925148010253906}, 'lr_infer_time': {7: 0.5011098384857178}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting ettm1 -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/ettm1_epochs_150_seed_2021/model.pkl', muti_dataset='ettm1', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.64914e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=5.3512e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.64914e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.07050669808443237, 'MAE': 0.17756584395327107, 'MAPE': 1.298822570880041}, 'ts2vec_infer_time': 144.21080541610718, 'lr_train_time': {7: 7.0653064250946045}, 'lr_infer_time': {7: 0.21835684776306152}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='ettm2', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/ettm2_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=30.592364174979075
+Epoch #1: loss=9.539318425314766
+Epoch #2: loss=7.522535800933838
+Epoch #3: loss=6.437529904501779
+Epoch #4: loss=5.544696467263358
+Epoch #5: loss=5.109033857073102
+Epoch #6: loss=4.848845345633371
+Epoch #7: loss=4.645659174237933
+Epoch #8: loss=4.5765204429626465
+Epoch #9: loss=4.458117961883545
+Epoch #10: loss=4.450384821210589
+Epoch #11: loss=4.498788561139788
+Epoch #12: loss=4.359555380684989
+Epoch #13: loss=4.427947384970529
+Epoch #14: loss=4.467170783451626
+Epoch #15: loss=4.362049375261579
+Epoch #16: loss=4.270453589303153
+Epoch #17: loss=4.248583793640137
+Epoch #18: loss=4.39510897227696
+Epoch #19: loss=4.332041774477277
+Epoch #20: loss=4.264333180018833
+Epoch #21: loss=4.2499324934823175
+Epoch #22: loss=4.174700021743774
+Epoch #23: loss=4.22243595123291
+Epoch #24: loss=4.253349304199219
+Epoch #25: loss=4.299815518515451
+Epoch #26: loss=4.17166382925851
+Epoch #27: loss=4.217503343309675
+Epoch #28: loss=4.145554712840489
+Epoch #29: loss=4.173155239650181
+Epoch #30: loss=4.139910016741071
+Epoch #31: loss=4.192902088165283
+Epoch #32: loss=4.001125710351126
+Epoch #33: loss=4.063508919307163
+Epoch #34: loss=4.014199938092913
+Epoch #35: loss=4.1228751455034525
+Epoch #36: loss=4.122442790440151
+Epoch #37: loss=4.041076251438686
+Epoch #38: loss=4.028917653220041
+Epoch #39: loss=3.9493461677006314
+Epoch #40: loss=3.9618240765162875
+Epoch #41: loss=4.022423028945923
+Epoch #42: loss=3.9545367445264543
+Epoch #43: loss=3.8768418175833568
+Epoch #44: loss=3.944311891283308
+Epoch #45: loss=3.9079085758754184
+Epoch #46: loss=3.829798017229353
+Epoch #47: loss=3.9428861141204834
+Epoch #48: loss=3.9018814904349193
+Epoch #49: loss=3.894153458731515
+Epoch #50: loss=3.7827891622270857
+Epoch #51: loss=3.8328325067247664
+Epoch #52: loss=3.8682007789611816
+Epoch #53: loss=3.7976304462977817
+Epoch #54: loss=3.811419793537685
+Epoch #55: loss=3.84601024218968
+Epoch #56: loss=3.777386324746268
+Epoch #57: loss=3.791409799030849
+Epoch #58: loss=3.793851852416992
+Epoch #59: loss=3.6694701399121965
+Epoch #60: loss=3.727719102587019
+Epoch #61: loss=3.7530527455466136
+Epoch #62: loss=3.7737351145063127
+Epoch #63: loss=3.718621390206473
+Epoch #64: loss=3.7219418798174178
+Epoch #65: loss=3.730579035622733
+Epoch #66: loss=3.7368142945425853
+Epoch #67: loss=3.6988380636487688
+Epoch #68: loss=3.672353982925415
+Epoch #69: loss=3.6811318738119945
+Epoch #70: loss=3.647829907281058
+Epoch #71: loss=3.6577011857713972
+Epoch #72: loss=3.6392602579934255
+Epoch #73: loss=3.709005389894758
+Epoch #74: loss=3.6369290011269704
+Epoch #75: loss=3.687535728727068
+Epoch #76: loss=3.6140072686331615
+Epoch #77: loss=3.677938904081072
+Epoch #78: loss=3.6223037242889404
+Epoch #79: loss=3.6174633502960205
+Epoch #80: loss=3.6743335723876953
+Epoch #81: loss=3.5931757177625383
+Epoch #82: loss=3.5643582344055176
+Epoch #83: loss=3.5478332383292064
+Epoch #84: loss=3.6140332562582835
+Epoch #85: loss=3.5343312195369174
+Epoch #86: loss=3.5704197202410017
+Epoch #87: loss=3.4862845284598216
+Epoch #88: loss=3.5490120479038785
+Epoch #89: loss=3.519577775682722
+Epoch #90: loss=3.4693915843963623
+Epoch #91: loss=3.4127568176814487
+Epoch #92: loss=3.5421899386814664
+Epoch #93: loss=3.447603396006993
+Epoch #94: loss=3.411662748881749
+Epoch #95: loss=3.5818954876491
+Epoch #96: loss=3.468994379043579
+Epoch #97: loss=3.486457586288452
+Epoch #98: loss=3.438002961022513
+Epoch #99: loss=3.3654191493988037
+Epoch #100: loss=3.478440489087786
+Epoch #101: loss=3.486705711909703
+Epoch #102: loss=3.454215015683855
+Epoch #103: loss=3.438600335802351
+Epoch #104: loss=3.461545535496303
+Epoch #105: loss=3.379908493586949
+Epoch #106: loss=3.350780180522374
+Epoch #107: loss=3.3411851610456194
+Epoch #108: loss=3.5660784585135326
+Epoch #109: loss=3.395721129008702
+Epoch #110: loss=3.405005386897496
+Epoch #111: loss=3.4161018303462436
+Epoch #112: loss=3.4817610808781216
+Epoch #113: loss=3.2745139598846436
+Epoch #114: loss=3.3178087983812605
+Epoch #115: loss=3.301311935697283
+Epoch #116: loss=3.27304584639413
+Epoch #117: loss=3.112424271447318
+Epoch #118: loss=3.236746072769165
+Epoch #119: loss=3.511091027941023
+Epoch #120: loss=3.3185628141675676
+Epoch #121: loss=3.3526459762028287
+Epoch #122: loss=3.2955451352255687
+Epoch #123: loss=3.4487907205309187
+Epoch #124: loss=3.4039315496172224
+Epoch #125: loss=3.1895062582833424
+Epoch #126: loss=3.29123626436506
+Epoch #127: loss=3.1114646707262312
+Epoch #128: loss=3.5148206778935025
+Epoch #129: loss=3.3654892785208568
+Epoch #130: loss=3.215498311179025
+Epoch #131: loss=3.329007489340646
+Epoch #132: loss=3.3564344133649553
+Epoch #133: loss=3.196394443511963
+Epoch #134: loss=3.205395289829799
+Epoch #135: loss=3.224653823035104
+Epoch #136: loss=3.219362735748291
+Epoch #137: loss=3.161724260875157
+Epoch #138: loss=3.250841890062605
+Epoch #139: loss=3.2302002225603377
+Epoch #140: loss=3.1873325620378767
+Epoch #141: loss=3.1634892395564487
+Epoch #142: loss=3.2549402713775635
+Epoch #143: loss=3.213928256716047
+Epoch #144: loss=3.3794597557612827
+Epoch #145: loss=3.235715934208461
+Epoch #146: loss=3.242567471095494
+Epoch #147: loss=2.9504453795296803
+Epoch #148: loss=2.9385645048958913
+Epoch #149: loss=3.2242765767233714
+
+Training time: 0:02:11.483602
+
+Finished.
+n2one setting ettm2 -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/ettm2_epochs_150_seed_2021/model.pkl', muti_dataset='ettm2', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.74359e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=5.59519e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.74359e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.04660768465420437, 'MAE': 0.11015511762359113, 'MAPE': 2.1713232140840915}, 'ts2vec_infer_time': 341.6140224933624, 'lr_train_time': {7: 5.8791351318359375}, 'lr_infer_time': {7: 0.42572832107543945}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting ettm2 -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/ettm2_epochs_150_seed_2021/model.pkl', muti_dataset='ettm2', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.89321e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=5.88648e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.89321e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.07104522365858533, 'MAE': 0.17869232886480596, 'MAPE': 1.3226778449371177}, 'ts2vec_infer_time': 159.84383130073547, 'lr_train_time': {7: 7.238214015960693}, 'lr_infer_time': {7: 0.20641589164733887}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='electricity', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/electricity_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=4.122381846110026
+Epoch #1: loss=2.580458710498156
+Epoch #2: loss=2.0450872940437814
+Epoch #3: loss=1.7683621333024213
+Epoch #4: loss=1.5540466683675938
+Epoch #5: loss=1.4819518277578265
+Epoch #6: loss=1.366575890983748
+Epoch #7: loss=1.232461312292521
+Epoch #8: loss=1.1803287054148046
+Epoch #9: loss=1.1193676356957338
+Epoch #10: loss=1.1192010299439
+Epoch #11: loss=1.0384904807230393
+Epoch #12: loss=0.8738211150109954
+Epoch #13: loss=0.9012517029436949
+Epoch #14: loss=0.9549177716082873
+Epoch #15: loss=0.8854789353234003
+Epoch #16: loss=0.8846915575945489
+Epoch #17: loss=0.8631971622367515
+Epoch #18: loss=0.7709303627318682
+Epoch #19: loss=0.7956284914989709
+Epoch #20: loss=0.7452502175469264
+Epoch #21: loss=0.8015754462402558
+Epoch #22: loss=0.72176575985653
+Epoch #23: loss=0.7553147270672047
+Epoch #24: loss=0.7502024310214497
+Epoch #25: loss=0.7242664160015427
+Epoch #26: loss=0.6997762801491212
+Epoch #27: loss=0.7046118840064587
+Epoch #28: loss=0.7016899885139732
+Epoch #29: loss=0.6661048786848134
+Epoch #30: loss=0.6345670814176215
+Epoch #31: loss=0.7078587137093054
+Epoch #32: loss=0.6744019824117886
+Epoch #33: loss=0.6394555105877071
+Epoch #34: loss=0.6486428725849431
+Epoch #35: loss=0.6576820387275791
+Epoch #36: loss=0.6985654101657719
+Epoch #37: loss=0.6456419366449582
+Epoch #38: loss=0.628295498473622
+Epoch #39: loss=0.6070005229886076
+Epoch #40: loss=0.6442242497781355
+Epoch #41: loss=0.6712522556384405
+Epoch #42: loss=0.6711432430603052
+Epoch #43: loss=0.6244944619055478
+Epoch #44: loss=0.6101310874257132
+Epoch #45: loss=0.5902581898687042
+Epoch #46: loss=0.579580878960752
+Epoch #47: loss=0.6014886108978515
+Epoch #48: loss=0.6043959013955243
+Epoch #49: loss=0.596445976388046
+Epoch #50: loss=0.6058586286700032
+Epoch #51: loss=0.5705914404069152
+Epoch #52: loss=0.5887228474717274
+Epoch #53: loss=0.6247305319502346
+Epoch #54: loss=0.62088366080296
+Epoch #55: loss=0.5800453519152704
+Epoch #56: loss=0.6004525851516337
+Epoch #57: loss=0.6204566272248361
+Epoch #58: loss=0.5716983526945114
+Epoch #59: loss=0.6414699944844499
+Epoch #60: loss=0.583841649960506
+Epoch #61: loss=0.544571778391752
+Epoch #62: loss=0.5626682169805063
+Epoch #63: loss=0.5298303838273818
+Epoch #64: loss=0.5625255204899661
+Epoch #65: loss=0.5617010092995248
+Epoch #66: loss=0.5731412565968118
+Epoch #67: loss=0.5509880128957773
+Epoch #68: loss=0.5581065206512855
+Epoch #69: loss=0.5471133115321305
+Epoch #70: loss=0.5243350970921486
+Epoch #71: loss=0.5662130170336394
+Epoch #72: loss=0.5418174923209015
+Epoch #73: loss=0.5334710109967309
+Epoch #74: loss=0.5580016104649532
+Epoch #75: loss=0.4774443280659732
+Epoch #76: loss=0.5190249499966423
+Epoch #77: loss=0.5655444988580508
+Epoch #78: loss=0.46791708046959196
+Epoch #79: loss=0.5217260846699882
+Epoch #80: loss=0.5614209413714126
+Epoch #81: loss=0.5352145760230186
+Epoch #82: loss=0.5098193723743207
+Epoch #83: loss=0.490665340117205
+Epoch #84: loss=0.5097319799652352
+Epoch #85: loss=0.49972610985657134
+Epoch #86: loss=0.48849758659010734
+Epoch #87: loss=0.4768790374060286
+Epoch #88: loss=0.5033804759893833
+Epoch #89: loss=0.49633577561174225
+Epoch #90: loss=0.4711655250451646
+Epoch #91: loss=0.44016940102584634
+Epoch #92: loss=0.5466600022165575
+Epoch #93: loss=0.5114612491145684
+Epoch #94: loss=0.47667985544119296
+Epoch #95: loss=0.4942007230310425
+Epoch #96: loss=0.493035436604996
+Epoch #97: loss=0.4954097147485549
+Epoch #98: loss=0.4744742320287636
+Epoch #99: loss=0.48956242700417835
+Epoch #100: loss=0.4820811490403529
+Epoch #101: loss=0.4997729773044215
+Epoch #102: loss=0.4989567212876501
+Epoch #103: loss=0.462272057211102
+Epoch #104: loss=0.5699515929706743
+Epoch #105: loss=0.486430196956125
+Epoch #106: loss=0.4516716671184959
+Epoch #107: loss=0.5088195810761779
+Epoch #108: loss=0.501817018304287
+Epoch #109: loss=0.5203470175279263
+Epoch #110: loss=0.48124503490523757
+Epoch #111: loss=0.4681794476750484
+Epoch #112: loss=0.47935109385913033
+Epoch #113: loss=0.48098572726561645
+Epoch #114: loss=0.48689898112759783
+Epoch #115: loss=0.47244219087366
+Epoch #116: loss=0.497361378390284
+Epoch #117: loss=0.46548669330334735
+Epoch #118: loss=0.47831516367067056
+Epoch #119: loss=0.45923626538934736
+Epoch #120: loss=0.4688648604483248
+Epoch #121: loss=0.47076260762701155
+Epoch #122: loss=0.45995373875366935
+Epoch #123: loss=0.45652360975092443
+Epoch #124: loss=0.47870766167235895
+Epoch #125: loss=0.4360123980918035
+Epoch #126: loss=0.4436283244800716
+Epoch #127: loss=0.4821485267296387
+Epoch #128: loss=0.438669611963899
+Epoch #129: loss=0.46533681904879687
+Epoch #130: loss=0.4728706514584684
+Epoch #131: loss=0.47163767362959286
+Epoch #132: loss=0.5341771670683894
+Epoch #133: loss=0.45559213461348574
+Epoch #134: loss=0.4458215462038079
+Epoch #135: loss=0.47168401129706256
+Epoch #136: loss=0.42560092661518173
+Epoch #137: loss=0.4510000147784239
+Epoch #138: loss=0.42190448647347567
+Epoch #139: loss=0.3988820792080086
+Epoch #140: loss=0.43660737806205807
+Epoch #141: loss=0.4941465036009331
+Epoch #142: loss=0.43297811913248907
+Epoch #143: loss=0.4426928576418544
+Epoch #144: loss=0.4187025674082037
+Epoch #145: loss=0.471836130195689
+Epoch #146: loss=0.4462636569485858
+Epoch #147: loss=0.4577659271262888
+Epoch #148: loss=0.45628381694588704
+Epoch #149: loss=0.457849561936016
+
+Training time: 0:55:20.823429
+
+Finished.
+n2one setting electricity -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/electricity_epochs_150_seed_2021/model.pkl', muti_dataset='electricity', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=5.03061e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=5.03061e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.04468408271255016, 'MAE': 0.11100187919998963, 'MAPE': 2.196007743927622}, 'ts2vec_infer_time': 326.78689217567444, 'lr_train_time': {7: 5.270065069198608}, 'lr_infer_time': {7: 0.4162454605102539}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting electricity -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/electricity_epochs_150_seed_2021/model.pkl', muti_dataset='electricity', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... {'all': {'MSE': 0.07424823325325454, 'MAE': 0.18349278991146556, 'MAPE': 1.3115772843177924}, 'ts2vec_infer_time': 138.91543912887573, 'lr_train_time': {7: 4.910698175430298}, 'lr_infer_time': {7: 0.2982828617095947}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='traffic', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/traffic_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=3.0565841698591227
+Epoch #1: loss=1.3929276142762044
+Epoch #2: loss=1.01018071838432
+Epoch #3: loss=0.8746381280662842
+Epoch #4: loss=0.7267921092961062
+Epoch #5: loss=0.6777774590454356
+Epoch #6: loss=0.6054401613616335
+Epoch #7: loss=0.5404367624088395
+Epoch #8: loss=0.5349560662447161
+Epoch #9: loss=0.5055913520661418
+Epoch #10: loss=0.47653595176622654
+Epoch #11: loss=0.4363581975295345
+Epoch #12: loss=0.4189731000540151
+Epoch #13: loss=0.406119748059738
+Epoch #14: loss=0.3889866527126726
+Epoch #15: loss=0.40392897192501137
+Epoch #16: loss=0.36372700743290776
+Epoch #17: loss=0.3593939232560017
+Epoch #18: loss=0.38286735564297425
+Epoch #19: loss=0.38720028898019665
+Epoch #20: loss=0.37239971887017764
+Epoch #21: loss=0.333066637647228
+Epoch #22: loss=0.3401072353703724
+Epoch #23: loss=0.32090681536326277
+Epoch #24: loss=0.34863608002472507
+Epoch #25: loss=0.32198110537002783
+Epoch #26: loss=0.32082912872119734
+Epoch #27: loss=0.3048871911872014
+Epoch #28: loss=0.3024884883245224
+Epoch #29: loss=0.30235300813812394
+Epoch #30: loss=0.2899881982938181
+Epoch #31: loss=0.300921416247216
+Epoch #32: loss=0.3075629583799784
+Epoch #33: loss=0.29053715762537485
+Epoch #34: loss=0.2911973817969765
+Epoch #35: loss=0.31490282383758206
+Epoch #36: loss=0.2758528136641755
+Epoch #37: loss=0.2762454692403983
+Epoch #38: loss=0.2855275883976794
+Epoch #39: loss=0.2781814989437222
+Epoch #40: loss=0.26448963062185143
+Epoch #41: loss=0.2508040636069122
+Epoch #42: loss=0.30698765565807606
+Epoch #43: loss=0.28055506327520113
+Epoch #44: loss=0.2554787311361554
+Epoch #45: loss=0.2722678376348763
+Epoch #46: loss=0.2479063067433971
+Epoch #47: loss=0.2683972274914833
+Epoch #48: loss=0.2627368588475921
+Epoch #49: loss=0.28458444592640186
+Epoch #50: loss=0.2839126739361412
+Epoch #51: loss=0.2926947157549091
+Epoch #52: loss=0.24010860053238972
+Epoch #53: loss=0.24923854561743009
+Epoch #54: loss=0.24121703207924997
+Epoch #55: loss=0.27470309476815424
+Epoch #56: loss=0.2695031580677269
+Epoch #57: loss=0.2638524947752809
+Epoch #58: loss=0.24012930043638098
+Epoch #59: loss=0.265599653550495
+Epoch #60: loss=0.27442045687004196
+Epoch #61: loss=0.265494616265709
+Epoch #62: loss=0.24904385967538833
+Epoch #63: loss=0.24797350515259253
+Epoch #64: loss=0.23454360644875435
+Epoch #65: loss=0.2188500426299092
+Epoch #66: loss=0.26960313431875405
+Epoch #67: loss=0.2736894322036314
+Epoch #68: loss=0.2409508823224812
+Epoch #69: loss=0.26433956287930915
+Epoch #70: loss=0.2397129777646051
+Epoch #71: loss=0.2421229353710456
+Epoch #72: loss=0.24627366622265973
+Epoch #73: loss=0.20971467069797478
+Epoch #74: loss=0.2309806862556464
+Epoch #75: loss=0.2318085723053102
+Epoch #76: loss=0.21970806742981594
+Epoch #77: loss=0.23483149217238558
+Epoch #78: loss=0.2342136070875585
+Epoch #79: loss=0.22456549114078767
+Epoch #80: loss=0.22067763113574473
+Epoch #81: loss=0.21283824932210477
+Epoch #82: loss=0.2563243764009664
+Epoch #83: loss=0.20614519339106682
+Epoch #84: loss=0.2156163705188755
+Epoch #85: loss=0.2269835082572083
+Epoch #86: loss=0.2353014414762676
+Epoch #87: loss=0.2188244698128367
+Epoch #88: loss=0.25728893706363276
+Epoch #89: loss=0.19833186405803793
+Epoch #90: loss=0.20762429947547806
+Epoch #91: loss=0.2356888180049763
+Epoch #92: loss=0.1949420370887576
+Epoch #93: loss=0.2309385343949611
+Epoch #94: loss=0.22479390976799268
+Epoch #95: loss=0.20483958383637488
+Epoch #96: loss=0.2479749838400226
+Epoch #97: loss=0.22342267998314858
+Epoch #98: loss=0.22425574537695075
+Epoch #99: loss=0.22955586160522326
+Epoch #100: loss=0.23017853933652288
+Epoch #101: loss=0.1923436780228969
+Epoch #102: loss=0.24691529396333647
+Epoch #103: loss=0.21646053049272562
+Epoch #104: loss=0.24735682828269742
+Epoch #105: loss=0.2097218148604796
+Epoch #106: loss=0.21783061477889387
+Epoch #107: loss=0.19863954080450252
+Epoch #108: loss=0.24596545420664853
+Epoch #109: loss=0.21119948351008086
+Epoch #110: loss=0.2198396695911746
+Epoch #111: loss=0.21182017506742007
+Epoch #112: loss=0.23735164987299323
+Epoch #113: loss=0.22042218126624546
+Epoch #114: loss=0.22110510461265762
+Epoch #115: loss=0.23048619384036817
+Epoch #116: loss=0.2090321209934257
+Epoch #117: loss=0.2526508966080516
+Epoch #118: loss=0.22529050817587812
+Epoch #119: loss=0.22809109079009765
+Epoch #120: loss=0.18741792034608443
+Epoch #121: loss=0.22292746396696417
+Epoch #122: loss=0.2086311697726529
+Epoch #123: loss=0.19946994763645592
+Epoch #124: loss=0.21888192412022095
+Epoch #125: loss=0.185935956110482
+Epoch #126: loss=0.20799017419040272
+Epoch #127: loss=0.19349485052546395
+Epoch #128: loss=0.2179872391922637
+Epoch #129: loss=0.18554421691137546
+Epoch #130: loss=0.22302552041210874
+Epoch #131: loss=0.22448740866069797
+Epoch #132: loss=0.1994698062807045
+Epoch #133: loss=0.2073170889575216
+Epoch #134: loss=0.1915820459500301
+Epoch #135: loss=0.20171531867300724
+Epoch #136: loss=0.20533000337491525
+Epoch #137: loss=0.22284931734230223
+Epoch #138: loss=0.21388827628194595
+Epoch #139: loss=0.20832944799456615
+Epoch #140: loss=0.1896893421896753
+Epoch #141: loss=0.21388725795525962
+Epoch #142: loss=0.18729237970634605
+Epoch #143: loss=0.19635657435002155
+Epoch #144: loss=0.1962417861243619
+Epoch #145: loss=0.2190121242629576
+Epoch #146: loss=0.1849915858913481
+Epoch #147: loss=0.20599258511290472
+Epoch #148: loss=0.19605751818028688
+Epoch #149: loss=0.1796679259742461
+
+Training time: 2:16:28.994826
+
+Finished.
+n2one setting traffic -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/traffic_epochs_150_seed_2021/model.pkl', muti_dataset='traffic', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=4.31932e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=4.31932e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.04643953472474221, 'MAE': 0.11232386836349428, 'MAPE': 2.25484535574835}, 'ts2vec_infer_time': 325.6817219257355, 'lr_train_time': {7: 12.02698564529419}, 'lr_infer_time': {7: 0.4387662410736084}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting traffic -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/traffic_epochs_150_seed_2021/model.pkl', muti_dataset='traffic', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... {'all': {'MSE': 0.07527717001788001, 'MAE': 0.18522335352952915, 'MAPE': 1.375610832616028}, 'ts2vec_infer_time': 153.5062279701233, 'lr_train_time': {7: 7.38618803024292}, 'lr_infer_time': {7: 0.22658848762512207}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='weather', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/weather_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=26.934213275001163
+Epoch #1: loss=6.647496132623582
+Epoch #2: loss=5.052645024799165
+Epoch #3: loss=4.564105646950858
+Epoch #4: loss=4.450785909380231
+Epoch #5: loss=4.587822471346174
+Epoch #6: loss=4.311869973228092
+Epoch #7: loss=4.363968588057018
+Epoch #8: loss=4.380586499259586
+Epoch #9: loss=4.239098605655489
+Epoch #10: loss=4.362985645021711
+Epoch #11: loss=4.182433696020217
+Epoch #12: loss=4.148977313722883
+Epoch #13: loss=4.207123279571533
+Epoch #14: loss=4.185660566602435
+Epoch #15: loss=4.082327456701369
+Epoch #16: loss=4.213878381819952
+Epoch #17: loss=4.055747304643903
+Epoch #18: loss=4.087919291995821
+Epoch #19: loss=4.05342021442595
+Epoch #20: loss=3.9519375505901517
+Epoch #21: loss=3.9654804865519204
+Epoch #22: loss=3.9421891371409097
+Epoch #23: loss=3.9044378030867803
+Epoch #24: loss=3.8570570037478493
+Epoch #25: loss=3.7672999813443138
+Epoch #26: loss=3.858296031043643
+Epoch #27: loss=3.862680060522897
+Epoch #28: loss=3.840487616402762
+Epoch #29: loss=3.773403735387893
+Epoch #30: loss=3.724208354949951
+Epoch #31: loss=3.8919022423880443
+Epoch #32: loss=3.758253563018072
+Epoch #33: loss=3.797734941755022
+Epoch #34: loss=3.7545817352476574
+Epoch #35: loss=3.723892631984892
+Epoch #36: loss=3.62831635702224
+Epoch #37: loss=3.607579401561192
+Epoch #38: loss=3.578655401865641
+Epoch #39: loss=3.5305847099849155
+Epoch #40: loss=3.5556807858603343
+Epoch #41: loss=3.567368291673206
+Epoch #42: loss=3.500201792944045
+Epoch #43: loss=3.5549522695087252
+Epoch #44: loss=3.504432167325701
+Epoch #45: loss=3.4827409244719005
+Epoch #46: loss=3.408942006883167
+Epoch #47: loss=3.408432608559018
+Epoch #48: loss=3.375519627616519
+Epoch #49: loss=3.4245624201638356
+Epoch #50: loss=3.3639693487258184
+Epoch #51: loss=3.3795470283144997
+Epoch #52: loss=3.3103078546978177
+Epoch #53: loss=3.2903024582635787
+Epoch #54: loss=3.3619196074349538
+Epoch #55: loss=3.329077198391869
+Epoch #56: loss=3.256276528040568
+Epoch #57: loss=3.3075497491019115
+Epoch #58: loss=3.28466374533517
+Epoch #59: loss=3.2471203804016113
+Epoch #60: loss=3.2626588458106633
+Epoch #61: loss=3.226968356541225
+Epoch #62: loss=3.291890303293864
+Epoch #63: loss=3.169429744992937
+Epoch #64: loss=3.2685674145108177
+Epoch #65: loss=3.218546220234462
+Epoch #66: loss=3.123675164722261
+Epoch #67: loss=3.166591462634859
+Epoch #68: loss=3.0893266882215227
+Epoch #69: loss=2.909002145131429
+Epoch #70: loss=3.1133317039126442
+Epoch #71: loss=3.085586036954607
+Epoch #72: loss=3.1119967642284574
+Epoch #73: loss=3.2936198257264637
+Epoch #74: loss=3.051818257286435
+Epoch #75: loss=3.1486440159025646
+Epoch #76: loss=3.036039352416992
+Epoch #77: loss=3.277423007147653
+Epoch #78: loss=3.0718234039488292
+Epoch #79: loss=2.9783151149749756
+Epoch #80: loss=3.304829018456595
+Epoch #81: loss=3.2899639038812545
+Epoch #82: loss=3.1629231430235363
+Epoch #83: loss=3.0719186124347506
+Epoch #84: loss=3.0229106289999828
+Epoch #85: loss=2.8506724607376825
+Epoch #86: loss=3.091585874557495
+Epoch #87: loss=2.8780478749956404
+Epoch #88: loss=3.0092757429395403
+Epoch #89: loss=2.97578349567595
+Epoch #90: loss=3.0680320262908936
+Epoch #91: loss=2.9081669875553677
+Epoch #92: loss=3.0248088723137263
+Epoch #93: loss=2.683444068545387
+Epoch #94: loss=2.88276812008449
+Epoch #95: loss=2.964219944817679
+Epoch #96: loss=2.8077774047851562
+Epoch #97: loss=2.902493090856643
+Epoch #98: loss=2.9709639435722712
+Epoch #99: loss=2.9152287301563082
+Epoch #100: loss=2.8305656455812
+Epoch #101: loss=2.6777541523887995
+Epoch #102: loss=3.0841811952136813
+Epoch #103: loss=2.909439132327125
+Epoch #104: loss=2.7894461154937744
+Epoch #105: loss=2.758346648443313
+Epoch #106: loss=2.6193908963884627
+Epoch #107: loss=2.689358711242676
+Epoch #108: loss=2.658368564787365
+Epoch #109: loss=2.8311718077886674
+Epoch #110: loss=2.592126789547148
+Epoch #111: loss=2.8238337323779152
+Epoch #112: loss=2.7701400348118375
+Epoch #113: loss=2.656523488816761
+Epoch #114: loss=2.7535466239565896
+Epoch #115: loss=2.7426778134845553
+Epoch #116: loss=2.7247044756298973
+Epoch #117: loss=2.707164560045515
+Epoch #118: loss=2.7490859826405845
+Epoch #119: loss=2.5441060293288458
+Epoch #120: loss=2.6955149344035556
+Epoch #121: loss=2.536805198306129
+Epoch #122: loss=2.8134036575044905
+Epoch #123: loss=2.5858976613907587
+Epoch #124: loss=2.5447737773259482
+Epoch #125: loss=2.640559298651559
+Epoch #126: loss=2.6942002035322643
+Epoch #127: loss=2.623141226314363
+Epoch #128: loss=2.599529493422735
+Epoch #129: loss=2.292045752207438
+Epoch #130: loss=2.729330715678987
+Epoch #131: loss=2.5009460222153437
+Epoch #132: loss=2.5970809289387295
+Epoch #133: loss=2.4690426133927845
+Epoch #134: loss=2.6638312226250056
+Epoch #135: loss=2.4615574053355624
+Epoch #136: loss=2.777490939412798
+Epoch #137: loss=2.80074820064363
+Epoch #138: loss=3.019996540887015
+Epoch #139: loss=2.469866536912464
+Epoch #140: loss=2.7976370311918712
+Epoch #141: loss=2.6691126766658964
+Epoch #142: loss=2.5614392927714755
+Epoch #143: loss=2.502440713700794
+Epoch #144: loss=2.288820754914057
+Epoch #145: loss=2.638270968482608
+Epoch #146: loss=2.614253816150484
+Epoch #147: loss=2.631092803818839
+Epoch #148: loss=2.38272872425261
+Epoch #149: loss=2.4744774103164673
+
+Training time: 0:08:31.394359
+
+Finished.
+n2one setting weather -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/weather_epochs_150_seed_2021/model.pkl', muti_dataset='weather', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.66017e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=5.2417e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.66017e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.0461275046327299, 'MAE': 0.11065278093770678, 'MAPE': 2.3205850450760397}, 'ts2vec_infer_time': 330.41697669029236, 'lr_train_time': {7: 5.252112865447998}, 'lr_infer_time': {7: 0.41561222076416016}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting weather -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/weather_epochs_150_seed_2021/model.pkl', muti_dataset='weather', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=3.33629e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=3.33629e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.07150222422294188, 'MAE': 0.17979308635483768, 'MAPE': 1.3265139050113957}, 'ts2vec_infer_time': 151.0255184173584, 'lr_train_time': {7: 4.1189048290252686}, 'lr_infer_time': {7: 0.17818593978881836}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='exchange', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/exchange_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=11.936886131763458
+Epoch #1: loss=5.367599010467529
+Epoch #2: loss=3.9430524706840515
+Epoch #3: loss=3.452520191669464
+Epoch #4: loss=3.4218978881835938
+Epoch #5: loss=3.2167637944221497
+Epoch #6: loss=3.302901655435562
+Epoch #7: loss=3.2349660098552704
+Epoch #8: loss=3.1322312355041504
+Epoch #9: loss=3.0918507874011993
+Epoch #10: loss=3.1344186663627625
+Epoch #11: loss=3.0696067214012146
+Epoch #12: loss=3.143605262041092
+Epoch #13: loss=3.095719575881958
+Epoch #14: loss=2.9401862919330597
+Epoch #15: loss=2.905583530664444
+Epoch #16: loss=3.0034165382385254
+Epoch #17: loss=2.99065500497818
+Epoch #18: loss=3.058358669281006
+Epoch #19: loss=3.0054546296596527
+Epoch #20: loss=2.9275151193141937
+Epoch #21: loss=2.906575471162796
+Epoch #22: loss=2.9158982038497925
+Epoch #23: loss=2.820255756378174
+Epoch #24: loss=2.888358920812607
+Epoch #25: loss=2.8981200456619263
+Epoch #26: loss=2.8188987374305725
+Epoch #27: loss=2.8040033876895905
+Epoch #28: loss=2.780669003725052
+Epoch #29: loss=2.718284010887146
+Epoch #30: loss=2.721230149269104
+Epoch #31: loss=2.750092387199402
+Epoch #32: loss=2.730972170829773
+Epoch #33: loss=2.7295714020729065
+Epoch #34: loss=2.725746989250183
+Epoch #35: loss=2.713168144226074
+Epoch #36: loss=2.7283795177936554
+Epoch #37: loss=2.6986061930656433
+Epoch #38: loss=2.6425618827342987
+Epoch #39: loss=2.6146497428417206
+Epoch #40: loss=2.681068867444992
+Epoch #41: loss=2.579256296157837
+Epoch #42: loss=2.5724063217639923
+Epoch #43: loss=2.5807260870933533
+Epoch #44: loss=2.5505296885967255
+Epoch #45: loss=2.60188689827919
+Epoch #46: loss=2.588129997253418
+Epoch #47: loss=2.58741357922554
+Epoch #48: loss=2.530442774295807
+Epoch #49: loss=2.500319242477417
+Epoch #50: loss=2.488679736852646
+Epoch #51: loss=2.516956925392151
+Epoch #52: loss=2.553546518087387
+Epoch #53: loss=2.460876226425171
+Epoch #54: loss=2.394763559103012
+Epoch #55: loss=2.408756285905838
+Epoch #56: loss=2.657068133354187
+Epoch #57: loss=2.5198220014572144
+Epoch #58: loss=2.4676283597946167
+Epoch #59: loss=2.3991348147392273
+Epoch #60: loss=2.4431330859661102
+Epoch #61: loss=2.452712744474411
+Epoch #62: loss=2.476573884487152
+Epoch #63: loss=2.418264329433441
+Epoch #64: loss=2.3970008194446564
+Epoch #65: loss=2.4501232504844666
+Epoch #66: loss=2.4216326773166656
+Epoch #67: loss=2.3351442515850067
+Epoch #68: loss=2.4442771077156067
+Epoch #69: loss=2.3865997791290283
+Epoch #70: loss=2.3105663061141968
+Epoch #71: loss=2.342633754014969
+Epoch #72: loss=2.3734209537506104
+Epoch #73: loss=2.320861801505089
+Epoch #74: loss=2.2972590923309326
+Epoch #75: loss=2.2757800817489624
+Epoch #76: loss=2.377890020608902
+Epoch #77: loss=2.247548460960388
+Epoch #78: loss=2.2937065958976746
+Epoch #79: loss=2.19848769903183
+Epoch #80: loss=2.2389591336250305
+Epoch #81: loss=2.1847159564495087
+Epoch #82: loss=2.3198675513267517
+Epoch #83: loss=2.3960763216018677
+Epoch #84: loss=2.2647308707237244
+Epoch #85: loss=2.2884534299373627
+Epoch #86: loss=2.252946525812149
+Epoch #87: loss=2.291894555091858
+Epoch #88: loss=2.2955481112003326
+Epoch #89: loss=2.3169634640216827
+Epoch #90: loss=2.257382482290268
+Epoch #91: loss=2.258011907339096
+Epoch #92: loss=2.1872938573360443
+Epoch #93: loss=2.1678124964237213
+Epoch #94: loss=2.190189838409424
+Epoch #95: loss=2.2759875655174255
+Epoch #96: loss=2.173809379339218
+Epoch #97: loss=2.2211226522922516
+Epoch #98: loss=2.210866540670395
+Epoch #99: loss=2.1374880373477936
+Epoch #100: loss=2.182028576731682
+Epoch #101: loss=2.1582066118717194
+Epoch #102: loss=2.1322562098503113
+Epoch #103: loss=2.2201179563999176
+Epoch #104: loss=2.150787904858589
+Epoch #105: loss=2.170902281999588
+Epoch #106: loss=2.182371586561203
+Epoch #107: loss=2.043230250477791
+Epoch #108: loss=2.199625536799431
+Epoch #109: loss=2.0330328941345215
+Epoch #110: loss=2.200388103723526
+Epoch #111: loss=2.0814820677042007
+Epoch #112: loss=2.1118821650743484
+Epoch #113: loss=2.062434136867523
+Epoch #114: loss=2.067758947610855
+Epoch #115: loss=2.023207038640976
+Epoch #116: loss=2.3709985613822937
+Epoch #117: loss=2.145086646080017
+Epoch #118: loss=2.0650362074375153
+Epoch #119: loss=1.993320882320404
+Epoch #120: loss=2.130129873752594
+Epoch #121: loss=2.075051113963127
+Epoch #122: loss=1.9648862034082413
+Epoch #123: loss=2.037091240286827
+Epoch #124: loss=2.0280518233776093
+Epoch #125: loss=1.941740706562996
+Epoch #126: loss=2.003410190343857
+Epoch #127: loss=2.276385188102722
+Epoch #128: loss=2.0073747634887695
+Epoch #129: loss=2.033242031931877
+Epoch #130: loss=2.074891373515129
+Epoch #131: loss=2.3344023525714874
+Epoch #132: loss=2.191498324275017
+Epoch #133: loss=1.9709200114011765
+Epoch #134: loss=1.9531144201755524
+Epoch #135: loss=2.1194528937339783
+Epoch #136: loss=1.9097747206687927
+Epoch #137: loss=2.0749295949935913
+Epoch #138: loss=1.8603102564811707
+Epoch #139: loss=1.8742058873176575
+Epoch #140: loss=2.039541855454445
+Epoch #141: loss=1.9548960477113724
+Epoch #142: loss=1.9633813798427582
+Epoch #143: loss=1.8803139626979828
+Epoch #144: loss=1.8596132695674896
+Epoch #145: loss=2.0283530056476593
+Epoch #146: loss=1.9999530613422394
+Epoch #147: loss=1.8933211416006088
+Epoch #148: loss=2.0371097922325134
+Epoch #149: loss=1.8062333315610886
+
+Training time: 0:01:20.906922
+
+Finished.
+n2one setting exchange -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/exchange_epochs_150_seed_2021/model.pkl', muti_dataset='exchange', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=1.96135e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=3.8693e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=1.96135e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.04575829630347121, 'MAE': 0.10742836942719736, 'MAPE': 2.3925222014015963}, 'ts2vec_infer_time': 315.7460551261902, 'lr_train_time': {7: 11.217719793319702}, 'lr_infer_time': {7: 0.5115358829498291}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting exchange -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/exchange_epochs_150_seed_2021/model.pkl', muti_dataset='exchange', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.90907e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.90907e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.0699864205015346, 'MAE': 0.17729393234518448, 'MAPE': 1.3217962531346885}, 'ts2vec_infer_time': 136.15407991409302, 'lr_train_time': {7: 7.858228445053101}, 'lr_infer_time': {7: 0.29901647567749023}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='solar', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/solar_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=4.651783756966139
+Epoch #1: loss=3.6005558863173435
+Epoch #2: loss=3.3193705134148144
+Epoch #3: loss=3.1365349292755127
+Epoch #4: loss=3.00799599703211
+Epoch #5: loss=2.865743337756526
+Epoch #6: loss=2.751490631242738
+Epoch #7: loss=2.5564585080111986
+Epoch #8: loss=2.524284192245372
+Epoch #9: loss=2.2822564039787236
+Epoch #10: loss=2.2685845402905542
+Epoch #11: loss=2.2291729606851174
+Epoch #12: loss=2.0471994815951717
+Epoch #13: loss=2.041790589798976
+Epoch #14: loss=2.2211783880734965
+Epoch #15: loss=1.9169399651297687
+Epoch #16: loss=1.834714929552844
+Epoch #17: loss=1.9132756804027697
+Epoch #18: loss=1.9284140202250795
+Epoch #19: loss=1.9768981655148694
+Epoch #20: loss=1.7506135971876826
+Epoch #21: loss=1.7490844287141396
+Epoch #22: loss=1.76890597987349
+Epoch #23: loss=1.655092155846366
+Epoch #24: loss=1.5847383702758455
+Epoch #25: loss=1.650755447627854
+Epoch #26: loss=1.5146850813044248
+Epoch #27: loss=1.527185994343166
+Epoch #28: loss=1.6694449147168737
+Epoch #29: loss=1.5363328539542038
+Epoch #30: loss=1.7211070674179245
+Epoch #31: loss=1.5887660440737315
+Epoch #32: loss=1.5641939052700127
+Epoch #33: loss=1.4672033377807505
+Epoch #34: loss=1.5829960412352624
+Epoch #35: loss=1.6568063136434903
+Epoch #36: loss=1.5284181672291164
+Epoch #37: loss=1.556397633395926
+Epoch #38: loss=1.4646684048819716
+Epoch #39: loss=1.6027014960337729
+Epoch #40: loss=1.4064480453512094
+Epoch #41: loss=1.5006082353800754
+Epoch #42: loss=1.3123927268668683
+Epoch #43: loss=1.4584794766711493
+Epoch #44: loss=1.541662508553832
+Epoch #45: loss=1.4246672844364696
+Epoch #46: loss=1.448089955496962
+Epoch #47: loss=1.5012594457090336
+Epoch #48: loss=1.4500310973529398
+Epoch #49: loss=1.368556960655825
+Epoch #50: loss=1.2558004203504018
+Epoch #51: loss=1.3908789088256168
+Epoch #52: loss=1.2844721261602248
+Epoch #53: loss=1.2888711438561877
+Epoch #54: loss=1.3081476066234339
+Epoch #55: loss=1.4556203223492978
+Epoch #56: loss=1.3302280045773862
+Epoch #57: loss=1.3145534274351858
+Epoch #58: loss=1.210536722501699
+Epoch #59: loss=1.3849100614116139
+Epoch #60: loss=1.298046408343489
+Epoch #61: loss=1.2241363921304689
+Epoch #62: loss=1.2897179487847934
+Epoch #63: loss=1.3148449341746142
+Epoch #64: loss=1.2429319050190222
+Epoch #65: loss=1.3177270434633659
+Epoch #66: loss=1.292568669702015
+Epoch #67: loss=1.2926656425434306
+Epoch #68: loss=1.336366913614482
+Epoch #69: loss=1.3423442296738173
+Epoch #70: loss=1.3025583570455983
+Epoch #71: loss=1.2135878581635273
+Epoch #72: loss=1.2030203570849705
+Epoch #73: loss=1.2557338075916262
+Epoch #74: loss=1.2215900719165802
+Epoch #75: loss=1.3167308181741813
+Epoch #76: loss=1.1539742761719836
+Epoch #77: loss=1.30055549392735
+Epoch #78: loss=1.2771303782062808
+Epoch #79: loss=1.2861551344394684
+Epoch #80: loss=1.2061638705921869
+Epoch #81: loss=1.2294101564988602
+Epoch #82: loss=1.2782481251841915
+Epoch #83: loss=1.3096902020221208
+Epoch #84: loss=1.281956873888517
+Epoch #85: loss=1.27064538915662
+Epoch #86: loss=1.2773889705647516
+Epoch #87: loss=1.2018569951509908
+Epoch #88: loss=1.2209409003275153
+Epoch #89: loss=1.2049490283005428
+Epoch #90: loss=1.2559525585957687
+Epoch #91: loss=1.0508962251844198
+Epoch #92: loss=1.1393548317634277
+Epoch #93: loss=1.1775371116878341
+Epoch #94: loss=1.1608203573383553
+Epoch #95: loss=1.222337734307686
+Epoch #96: loss=1.1238692959729772
+Epoch #97: loss=1.3005552265765894
+Epoch #98: loss=1.1333975391666384
+Epoch #99: loss=1.1775490613314357
+Epoch #100: loss=1.192655315146829
+Epoch #101: loss=1.209044898730995
+Epoch #102: loss=1.2248932236302508
+Epoch #103: loss=1.1464979330988696
+Epoch #104: loss=1.207929919670968
+Epoch #105: loss=1.110731103341945
+Epoch #106: loss=1.2261838410457555
+Epoch #107: loss=1.2570668469815358
+Epoch #108: loss=1.1698633889212227
+Epoch #109: loss=1.1734860154399036
+Epoch #110: loss=1.1529437810400107
+Epoch #111: loss=1.2108049009838244
+Epoch #112: loss=1.1831025117940277
+Epoch #113: loss=1.0964935215285225
+Epoch #114: loss=1.0876823918227732
+Epoch #115: loss=1.0141233351543872
+Epoch #116: loss=1.0978462902733879
+Epoch #117: loss=1.1407112503138772
+Epoch #118: loss=1.0503622102041315
+Epoch #119: loss=1.1259463929781948
+Epoch #120: loss=0.958170111161949
+Epoch #121: loss=1.1146452063626617
+Epoch #122: loss=1.0752372798258372
+Epoch #123: loss=1.1008901887566505
+Epoch #124: loss=1.0163354566932594
+Epoch #125: loss=1.199122344055315
+Epoch #126: loss=1.10716825092796
+Epoch #127: loss=1.125305998499376
+Epoch #128: loss=1.13900990795045
+Epoch #129: loss=1.1051068458243878
+Epoch #130: loss=1.1188939396482314
+Epoch #131: loss=1.1004645219684517
+Epoch #132: loss=1.121849138806336
+Epoch #133: loss=1.029225813646386
+Epoch #134: loss=1.076917673767048
+Epoch #135: loss=1.1392297285751705
+Epoch #136: loss=1.0343580883349814
+Epoch #137: loss=1.0495304676303028
+Epoch #138: loss=1.0837736669248037
+Epoch #139: loss=1.097729709896728
+Epoch #140: loss=1.1072351706289028
+Epoch #141: loss=1.1260930902331414
+Epoch #142: loss=1.0665441103225206
+Epoch #143: loss=1.050784404695469
+Epoch #144: loss=1.197001830939829
+Epoch #145: loss=1.087225314474454
+Epoch #146: loss=1.1352685035145196
+Epoch #147: loss=1.191685870181035
+Epoch #148: loss=1.0536750544161693
+Epoch #149: loss=1.0644807809025703
+
+Training time: 0:34:07.989741
+
+Finished.
+n2one setting solar -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/solar_epochs_150_seed_2021/model.pkl', muti_dataset='solar', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... {'all': {'MSE': 0.04624984838278812, 'MAE': 0.11732080430937142, 'MAPE': 2.2886405370496017}, 'ts2vec_infer_time': 328.7938802242279, 'lr_train_time': {7: 5.1994287967681885}, 'lr_infer_time': {7: 0.6891894340515137}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting solar -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/solar_epochs_150_seed_2021/model.pkl', muti_dataset='solar', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=1.64707e-09): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=9.98262e-09): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.07014e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.10910101430502506, 'MAE': 0.2273879769766058, 'MAPE': 1.6580431498889143}, 'ts2vec_infer_time': 148.36765146255493, 'lr_train_time': {7: 16.24675440788269}, 'lr_infer_time': {7: 0.3692500591278076}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+Arguments: Namespace(batch_size=512, dataset='power', epochs=150, eval=0, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='pems08', random_seed=2021, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/pems08_epochs_150_seed_2021
+Loading data... done
+Epoch #0: loss=4.101591941889595
+Epoch #1: loss=2.9819115961299225
+Epoch #2: loss=2.641500209359562
+Epoch #3: loss=2.4173686890041126
+Epoch #4: loss=2.224109174223507
+Epoch #5: loss=2.131715580295114
+Epoch #6: loss=2.032431961508358
+Epoch #7: loss=1.9750324908424826
+Epoch #8: loss=1.9196299503831302
+Epoch #9: loss=1.9193352699279784
+Epoch #10: loss=1.7217382813201232
+Epoch #11: loss=1.6899795528720407
+Epoch #12: loss=1.6918094000395607
+Epoch #13: loss=1.6741778811987709
+Epoch #14: loss=1.640796441891614
+Epoch #15: loss=1.678396460939856
+Epoch #16: loss=1.6507542371749877
+Epoch #17: loss=1.519883817434311
+Epoch #18: loss=1.495399667936213
+Epoch #19: loss=1.484265231735566
+Epoch #20: loss=1.5378398449981914
+Epoch #21: loss=1.4619242412202498
+Epoch #22: loss=1.510370573576759
+Epoch #23: loss=1.5028952963211957
+Epoch #24: loss=1.3907912682084476
+Epoch #25: loss=1.4415951749857734
+Epoch #26: loss=1.416659702272976
+Epoch #27: loss=1.3201314873555128
+Epoch #28: loss=1.3774903367547429
+Epoch #29: loss=1.354842551315532
+Epoch #30: loss=1.3537190272527582
+Epoch #31: loss=1.342057170938043
+Epoch #32: loss=1.3256944179534913
+Epoch #33: loss=1.3280147577033323
+Epoch #34: loss=1.3272984087467194
+Epoch #35: loss=1.2655362662147074
+Epoch #36: loss=1.3333362421568702
+Epoch #37: loss=1.270403882335214
+Epoch #38: loss=1.299201863302904
+Epoch #39: loss=1.2368769039126004
+Epoch #40: loss=1.2847828700261958
+Epoch #41: loss=1.2346719152787153
+Epoch #42: loss=1.1952780783176422
+Epoch #43: loss=1.1301084020558525
+Epoch #44: loss=1.1549399084904615
+Epoch #45: loss=1.2049210054032944
+Epoch #46: loss=1.1449865006348665
+Epoch #47: loss=1.1375284878646625
+Epoch #48: loss=1.172086845776614
+Epoch #49: loss=1.1809026027427
+Epoch #50: loss=1.0404289075556923
+Epoch #51: loss=1.198882103492232
+Epoch #52: loss=1.1588175605325137
+Epoch #53: loss=1.173329307752497
+Epoch #54: loss=1.1264846000601263
+Epoch #55: loss=1.1086098083678413
+Epoch #56: loss=1.0695507067091325
+Epoch #57: loss=1.0933463133433285
+Epoch #58: loss=1.181860257246915
+Epoch #59: loss=1.1323774376336266
+Epoch #60: loss=1.131044539107996
+Epoch #61: loss=1.0754853022449158
+Epoch #62: loss=1.0800800626768785
+Epoch #63: loss=1.108368183058851
+Epoch #64: loss=1.0783211399527157
+Epoch #65: loss=1.0935985332026201
+Epoch #66: loss=1.0309272818705615
+Epoch #67: loss=1.0271982890718123
+Epoch #68: loss=1.0559455566546496
+Epoch #69: loss=1.116587412532638
+Epoch #70: loss=1.0448762760442847
+Epoch #71: loss=1.083530813280274
+Epoch #72: loss=1.121657176052823
+Epoch #73: loss=1.0880525964147905
+Epoch #74: loss=1.1075661098255831
+Epoch #75: loss=1.065985295176506
+Epoch #76: loss=1.0536824806648142
+Epoch #77: loss=1.0820032833253637
+Epoch #78: loss=1.01354099529631
+Epoch #79: loss=0.9469158090212766
+Epoch #80: loss=1.053423747420311
+Epoch #81: loss=1.089312115837546
+Epoch #82: loss=0.9776604733046363
+Epoch #83: loss=1.0374280131915037
+Epoch #84: loss=0.9769680450944339
+Epoch #85: loss=0.9658843724166646
+Epoch #86: loss=0.9052297616706175
+Epoch #87: loss=1.0568970648681417
+Epoch #88: loss=0.9868385870667065
+Epoch #89: loss=0.9996987384908339
+Epoch #90: loss=1.071652538285536
+Epoch #91: loss=1.0242471596773932
+Epoch #92: loss=0.9839275879018446
+Epoch #93: loss=1.0254113753052319
+Epoch #94: loss=0.9864283505608054
+Epoch #95: loss=0.9611920628477545
+Epoch #96: loss=0.9240154888700036
+Epoch #97: loss=0.9825014696401708
+Epoch #98: loss=0.9880927734515246
+Epoch #99: loss=0.9044814498985515
+Epoch #100: loss=0.9593731166685329
+Epoch #101: loss=0.9258859171586878
+Epoch #102: loss=0.8491997790687225
+Epoch #103: loss=0.9876627518850214
+Epoch #104: loss=0.9967145721702014
+Epoch #105: loss=0.9861189726520987
+Epoch #106: loss=0.8565943542648764
+Epoch #107: loss=0.8876573944793028
+Epoch #108: loss=0.9429855762159123
+Epoch #109: loss=0.9019785758327036
+Epoch #110: loss=0.9370182447573718
+Epoch #111: loss=0.964752138712827
+Epoch #112: loss=0.8798587339765885
+Epoch #113: loss=0.9584903098204557
+Epoch #114: loss=0.9430703573367175
+Epoch #115: loss=0.9923602896578172
+Epoch #116: loss=0.9744390144067652
+Epoch #117: loss=0.9575385356650633
+Epoch #118: loss=0.9076993756434497
+Epoch #119: loss=0.8879026197335299
+Epoch #120: loss=0.8806189123321982
+Epoch #121: loss=0.9337158155791899
+Epoch #122: loss=0.910852722735966
+Epoch #123: loss=0.8719490046010298
+Epoch #124: loss=0.9428069186561248
+Epoch #125: loss=0.8560430943965912
+Epoch #126: loss=0.9859221593422048
+Epoch #127: loss=0.854524358756402
+Epoch #128: loss=0.8556580610135023
+Epoch #129: loss=0.8575133076485466
+Epoch #130: loss=0.8729530264349544
+Epoch #131: loss=0.9323208850972793
+Epoch #132: loss=0.9184686909703648
+Epoch #133: loss=0.9122545999639174
+Epoch #134: loss=0.957455481150571
+Epoch #135: loss=0.9703752777155707
+Epoch #136: loss=0.9002650457270005
+Epoch #137: loss=0.9058901185498518
+Epoch #138: loss=0.8337416584000868
+Epoch #139: loss=0.8868500826989903
+Epoch #140: loss=0.9123329027610667
+Epoch #141: loss=0.9264490827041514
+Epoch #142: loss=0.7762843629893135
+Epoch #143: loss=0.9129493802785873
+Epoch #144: loss=0.8936046680983375
+Epoch #145: loss=0.8389520546969246
+Epoch #146: loss=0.8618288434603635
+Epoch #147: loss=0.8674425274133682
+Epoch #148: loss=0.9281576058443854
+Epoch #149: loss=0.907027972095153
+
+Training time: 0:28:48.949011
+
+Finished.
+n2one setting pems08 -> solar
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/pems08_epochs_150_seed_2021/model.pkl', muti_dataset='pems08', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='solar')
+Loading data... /home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.98617e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=5.24215e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/home/yupengz/anaconda3/envs/CoST/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.98617e-08): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+{'all': {'MSE': 0.04400358593652733, 'MAE': 0.10678032636565428, 'MAPE': 2.1008701435882284}, 'ts2vec_infer_time': 336.95769000053406, 'lr_train_time': {7: 11.262240648269653}, 'lr_infer_time': {7: 0.4149971008300781}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------
+n2one setting pems08 -> pems08
+Dataset: ETTh1
+Arguments: Namespace(batch_size=8, dataset='ETTh1', epochs=None, eval=False, gpu=4, irregular=0, iters=None, loader='forecast_csv', lr=0.001, max_threads=None, max_train_length=3000, model_name='TS2vec', model_path='./training/pems08_epochs_150_seed_2021/model.pkl', muti_dataset='pems08', random_seed=2021, record=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=None, target='pems08')
+Loading data... {'all': {'MSE': 0.07341065724525023, 'MAE': 0.1825855768333391, 'MAPE': 1.346443896203882}, 'ts2vec_infer_time': 148.57450699806213, 'lr_train_time': {7: 5.94890570640564}, 'lr_infer_time': {7: 0.20437407493591309}}
+Evaluation result: {}
+Finished.
+------------------------- record done -------------------------

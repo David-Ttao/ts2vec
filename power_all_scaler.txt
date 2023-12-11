@@ -1,0 +1,47 @@
+Arguments: Namespace(batch_size=8, dataset='power', epochs=30, eval=1, gpu=2, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='power', random_seed=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/power_epochs_30_seed_1
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+done
+Epoch #0: loss=0.821968691147305
+Epoch #1: loss=0.5512013214002545
+Epoch #2: loss=0.4752159274979732
+Epoch #3: loss=0.4302837443317722
+Epoch #4: loss=0.40561735293092044
+Epoch #5: loss=0.3899438804649302
+Epoch #6: loss=0.3771237193812821
+Epoch #7: loss=0.3699508459116167
+Epoch #8: loss=0.3568584724508444
+Epoch #9: loss=0.34944883246955594
+Epoch #10: loss=0.3383137082113616
+Epoch #11: loss=0.3420806518526142
+Epoch #12: loss=0.33531590502668146
+Epoch #13: loss=0.33434106031916705
+Epoch #14: loss=0.3306333629136044
+Epoch #15: loss=0.32710817214611737
+Epoch #16: loss=0.32485720494272846
+Epoch #17: loss=0.32275787468900474
+Epoch #18: loss=0.3194307914271259
+Epoch #19: loss=0.3206537531298275
+Epoch #20: loss=0.3199282235235002
+Epoch #21: loss=0.3127670009206354
+Epoch #22: loss=0.3128960273406026
+Epoch #23: loss=0.3129274308946216
+Epoch #24: loss=0.3086150741783799
+Epoch #25: loss=0.30943770359328254
+Epoch #26: loss=0.3079485066037952
+Epoch #27: loss=0.31056262708002125
+Epoch #28: loss=0.3072973437065036
+Epoch #29: loss=0.30374791261165285
+
+Training time: 18:13:58.661747
+
+/home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.05405e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+/home/yupengz/anaconda3/envs/TimesNet/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:216: LinAlgWarning: Ill-conditioned matrix (rcond=4.05405e-08): result may not be accurate.
+  return linalg.solve(A, Xy, assume_a="pos", overwrite_a=True).T
+{'all': {'MSE': 0.26767968020924676, 'MAE': 0.3546429486210243, 'MAPE': 694868244.282719}, 'province': {'MSE': 0.2399263625598093, 'MAE': 0.340748430325489, 'MAPE': 3.3726482836046974}, 'city': {'MSE': 0.18828063265995695, 'MAE': 0.3230612379637992, 'MAPE': 1.5267855053127386}, 'area': {'MSE': 0.18702734846832503, 'MAE': 0.32380803441743444, 'MAPE': 1.0907032226060107}, 'gb': {'MSE': 0.18550115100595685, 'MAE': 0.30455794168153283, 'MAPE': 1.802529933243013}, 'zb': {'MSE': 0.40575947849343214, 'MAE': 0.43877512149518794, 'MAPE': 1849320210.9245915}, 'ts2vec_infer_time': 285.568234205246, 'lr_train_time': {7: 6.1033971309661865}, 'lr_infer_time': {7: 0.15108203887939453}}
+Evaluation result: {}
+Finished.

@@ -1,0 +1,5 @@
+Arguments: Namespace(batch_size=8, dataset='power', epochs=20, eval=1, gpu=6, irregular=0, iters=None, loader='forecast_csv', lr=0.0003, max_threads=None, max_train_length=96, muti_dataset='power', random_seed=1, repr_dims=320, run_name='forecast_multivar', save_every=None, seed=1)
+training/power_epochs_20_seed_1
+Loading data... /home/yupengz/ts2vec/datautils.py:136: FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+  dt.weekofyear.to_numpy(),
+done

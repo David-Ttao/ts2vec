@@ -1,0 +1,25 @@
+{"timestamp": 1702131046.770391, "pretrain_data": ["etth1"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702131204.2930353, "pretrain_data": ["etth1"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702131649.7925494, "pretrain_data": ["etth2"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702131800.8321564, "pretrain_data": ["etth2"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702132366.6672268, "pretrain_data": ["ettm1"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702132526.7709217, "pretrain_data": ["ettm1"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702133045.3927922, "pretrain_data": ["ettm2"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702133222.917249, "pretrain_data": ["ettm2"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702136920.288223, "pretrain_data": ["electricity"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702137071.3342512, "pretrain_data": ["electricity"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702145671.8628194, "pretrain_data": ["traffic"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702145841.7084773, "pretrain_data": ["traffic"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702146380.8740134, "pretrain_data": ["etth1", "etth2", "ettm1", "ettm2", "electricity", "traffic", "exchange", "weather", "pems08"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702146753.501516, "pretrain_data": ["weather"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702146916.3062203, "pretrain_data": ["weather"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702147364.6934235, "pretrain_data": ["exchange"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702147516.2023103, "pretrain_data": ["exchange"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702149933.8689227, "pretrain_data": ["solar"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702150105.9735398, "pretrain_data": ["solar"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702152222.3267581, "pretrain_data": ["pems08"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702152389.4545436, "pretrain_data": ["pems08"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702158841.4708889, "pretrain_data": ["etth1", "etth2", "ettm1", "ettm2", "electricity", "traffic", "exchange", "weather", "solar"], "target": "pems08", "seeds": 2021, "model": "TS2vec", "results": {}}
+{"timestamp": 1702292971.052088, "pretrain_data": ["etth1"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {"MSE": 0.044750857545884794, "MAE": 0.10531536998747533, "MAPE": 2.238451255045539}}
+{"timestamp": 1702293373.9797652, "pretrain_data": ["etth1"], "target": "solar", "seeds": 2021, "model": "TS2vec", "results": {"MSE": 0.04475163613693204, "MAE": 0.10533393669310873, "MAPE": 2.2394719512807844}}
+{"timestamp": 1702293585.2090323, "pretrain_data": ["etth1"], "target": "etth1", "seeds": 2021, "model": "TS2vec", "results": {"MSE": 0.33451142161051595, "MAE": 0.39801063393644825, "MAPE": 5.62052736366427}}
